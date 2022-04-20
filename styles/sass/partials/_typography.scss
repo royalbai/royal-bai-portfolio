@@ -2,19 +2,20 @@
 
 // h1: 138px (6.9rem), Line height: 126px (6.3rem)
 // h2: 80px (4rem), Line height: 92px (4.6rem)
-// h3: 42px (2.1rem), Letter spacing: 1px
-// h4: 32px (1.6rem), Letter spacing: 1px
+// h3: 42px (2.1rem)
+// h4: 32px (1.6rem)
 
 // BODY:
 
-// Nav: 20px (1rem), Line height: 29px (1.45rem), Letter spacing: 1px
-// Button: 20px (1rem), Line height: 32px (1.6rem), Letter spacing: 1px
+// Nav: 20px (1rem), Line height: 29px (1.45rem)
+// Button: 20px (1rem), Line height: 32px (1.6rem)
 // Body: 20px (1rem), Line height: 32px (1.6rem)
 
 body {
     font-family: $font;
     font-size: 1rem;
     color: $text;
+    background-color: $primary;
     line-height: 1.6rem;
     text-transform: uppercase;
 }
@@ -22,6 +23,10 @@ body {
 h1 {
     font-size: 6.9rem;
     line-height: 6.3rem;
+
+    span {
+        font-weight: 300;
+    }
 }
 
 h2 {
@@ -31,12 +36,12 @@ h2 {
 
 h3 {
     font-size: 2.1rem;
-    letter-spacing: 1px;
+    font-weight: 600;
 }
 
 h4 {
     font-size: 1.6rem;
-    letter-spacing: 1px;
+    font-weight: 500;
 }
 
 p {
@@ -47,12 +52,10 @@ p {
 nav {
     font-size: 1rem;
     line-height: 1.45rem;
-    letter-spacing: 1px;
 }
 
 button {
     font-size: 1rem;
     line-height: 1.6rem;
-    letter-spacing: 1px;
     border: none;
 }
