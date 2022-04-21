@@ -321,21 +321,23 @@ header {
   background-image: url(../assets/back-img-1.png);
   background-size: cover;
   background-position: center bottom;
-  height: 700px;
+  height: 800px;
 }
-header .portfolioLogo {
+
+.portfolioLogo {
   font-family: "Square Peg", cursive;
   text-transform: none;
   padding-top: 30px;
 }
-header .home {
+
+.home {
   text-align: right;
   position: relative;
 }
-header .home h1 {
+.home h1 {
   color: #fff;
 }
-header .home:after {
+.home:after {
   content: "";
   display: block;
   width: 140px;
@@ -344,4 +346,35 @@ header .home:after {
   position: absolute;
   right: 0;
   margin-top: 20px;
+}
+
+.about {
+  margin-top: 200px;
+}
+
+.aboutContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.aboutContainer .aboutText {
+  margin-right: 100px;
+}
+.aboutContainer .aboutText p {
+  margin-top: 40px;
+}
+.aboutContainer .aboutImg img {
+  width: 500px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+  -webkit-box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.5);
 }
