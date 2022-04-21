@@ -412,15 +412,16 @@ header {
 
 .laptop {
   position: absolute;
-  top: 300px;
+  top: 350px;
   width: 1260px;
 }
 .laptop img {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .toolkitIcons {
-  padding-top: 200px;
+  padding-top: 250px;
 }
 .toolkitIcons h2 {
   text-align: center;
@@ -437,7 +438,7 @@ header {
   top: -5px;
 }
 .toolkitIcons ul {
-  margin: 60px 200px;
+  margin: 40px 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -448,7 +449,7 @@ header {
       flex-wrap: wrap;
 }
 .toolkitIcons ul li {
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 40px;
   text-align: center;
 }

@@ -3,17 +3,18 @@
 // font-family: 'Raleway', sans-serif;
 // font-family: 'Square Peg', cursive;
 
-$font: 'Raleway', sans-serif;
-$portfolio: 'Square Peg', cursive;
+$bodyFont: 'Raleway', sans-serif;
+$logoFont: 'Square Peg', cursive;
 
 // SITE COLOURS:
 
-// Primary background: #eee
-// Button/nav background: #900
-// Hover background: #060
+// Background: #fff
+// Button/nav/hover: rgba(255, 210, 19, 1); rgba(243, 166, 38, 1); rgba(217, 76, 59, 1); rgba(51, 74, 86, 1);
 // Text: #222
 
-$primary: #fff;
-$secondary: #900;
-$tertiary: #060;
+$primary: rgba(255, 210, 19, 1);
+$secondary: rgba(243, 166, 38, 1);
+$tertiary: rgba(217, 76, 59, 1);
+$quaternary: rgba(51, 74, 86, 1);
 $text: #222;
+$white: #fff;

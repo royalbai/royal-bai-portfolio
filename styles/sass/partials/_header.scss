@@ -6,7 +6,7 @@ header {
 }
 
 .portfolioLogo {
-    font-family: $portfolio;
+    font-family: $logoFont;
     text-transform: none;
     padding-top: 30px;
 }
@@ -16,7 +16,7 @@ header {
     position: relative;
 
     h1 {
-        color: $primary;
+        color: $white;
     }
 
     .headerElement {

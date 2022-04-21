@@ -12,10 +12,10 @@
 // Body: 20px (1rem), Line height: 32px (1.6rem)
 
 body {
-    font-family: $font;
+    font-family: $bodyFont;
     font-size: 1rem;
     color: $text;
-    background-color: $primary;
+    background-color: $white;
     line-height: 1.6rem;
     text-transform: uppercase;
 }
