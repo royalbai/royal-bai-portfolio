@@ -362,6 +362,16 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+}
+.aboutContainer:before {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 2px;
+  background-color: #222;
+  position: absolute;
+  top: 50px;
 }
 .aboutContainer .aboutText {
   margin-right: 100px;
@@ -377,4 +387,61 @@ header {
   border-radius: 25px;
   -webkit-box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.5);
           box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.toolkit {
+  background-image: url(../assets/back-img-3.png);
+  background-size: cover;
+  height: 1500px;
+  margin-top: 200px;
+  position: relative;
+}
+
+.laptop {
+  position: absolute;
+  top: 300px;
+  width: 1260px;
+}
+.laptop img {
+  width: 100%;
+}
+
+.toolkitIcons {
+  padding-top: 200px;
+}
+.toolkitIcons h2 {
+  text-align: center;
+  position: relative;
+}
+.toolkitIcons h2:before {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 2px;
+  background-color: #222;
+  position: absolute;
+  left: 394px;
+  top: -5px;
+}
+.toolkitIcons ul {
+  margin: 60px 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.toolkitIcons ul li {
+  font-size: 3rem;
+  padding: 40px;
+  text-align: center;
+}
+.toolkitIcons ul li p {
+  margin-top: 20px;
+}
+.toolkitIcons p {
+  font-family: "Square Peg", cursive;
 }
