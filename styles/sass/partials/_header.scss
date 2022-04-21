@@ -4,6 +4,12 @@ header {
     background-position: center bottom;
     height: 700px;
 
+    .portfolioLogo {
+            font-family: $portfolio;
+            text-transform: none;
+            padding-top: 30px;
+    }
+
     .home {
         text-align: right;
         position: relative;
