@@ -19,6 +19,14 @@ header {
         color: $primary;
     }
 
+    .headerElement {
+        position: absolute;
+        top: 10%;
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+
     &:after {
         content: "";
         display: block;

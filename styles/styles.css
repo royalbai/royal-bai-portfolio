@@ -255,7 +255,7 @@ h1 span {
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 4.6rem;
 }
 
@@ -337,6 +337,17 @@ header {
 .home h1 {
   color: #fff;
 }
+.home .headerElement {
+  position: absolute;
+  top: 10%;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 .home:after {
   content: "";
   display: block;
@@ -362,16 +373,18 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.aboutContainer h2 {
   position: relative;
 }
-.aboutContainer:before {
+.aboutContainer h2:before {
   content: "";
   display: block;
   width: 140px;
   height: 2px;
   background-color: #222;
   position: absolute;
-  top: 50px;
+  top: 0px;
 }
 .aboutContainer .aboutText {
   margin-right: 100px;
@@ -420,7 +433,7 @@ header {
   height: 2px;
   background-color: #222;
   position: absolute;
-  left: 394px;
+  left: 33.5%;
   top: -5px;
 }
 .toolkitIcons ul {
@@ -444,4 +457,14 @@ header {
 }
 .toolkitIcons p {
   font-family: "Square Peg", cursive;
+}
+
+.projects {
+  margin-top: -300px;
+  padding-top: 400px;
+  background-image: url(../assets/back-img-4.png);
+  background-size: cover;
+}
+.projects img {
+  max-width: 100%;
 }

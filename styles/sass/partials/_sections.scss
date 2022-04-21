@@ -8,17 +8,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+
+    h2 {
+        position: relative;
         
-    &:before {
-        content: "";
-        display: block;
-        width: 140px;
-        height: 2px;
-        background-color: $text;
-        position: absolute;
-        top: 50px;
+        &:before {
+            content: "";
+            display: block;
+            width: 140px;
+            height: 2px;
+            background-color: $text;
+            position: absolute;
+            top: 0px;
+        }
     }
+    
 
     .aboutText {
         margin-right: 100px;
@@ -74,7 +78,7 @@
             height: 2px;
             background-color: $text;
             position: absolute;
-            left: 394px;
+            left: 33.5%;
             top: -5px;
         }
     }
@@ -100,4 +104,17 @@
         font-family: $portfolio;
     }
     
+}
+
+// Projects section
+
+.projects {
+    margin-top: -300px;
+    padding-top: 400px;
+    background-image: url(../assets/back-img-4.png);
+    background-size: cover;
+
+    img {
+        max-width: 100%;
+    }
 }
