@@ -150,6 +150,19 @@
         margin: 35px 0;
     }
 
+    button {
+        padding: 10px 45px;
+        background-color: $tertiary;
+        border-radius: 15px;
+
+        &:hover,
+        &focus {
+            background-color:$quaternary;
+            color: $white;
+            cursor: pointer;
+        }
+    }
+
     .underTheSea {
         width: 45%;
     }

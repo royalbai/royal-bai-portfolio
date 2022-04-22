@@ -513,6 +513,16 @@ footer {
 .projectsContainer p {
   margin: 35px 0;
 }
+.projectsContainer button {
+  padding: 10px 45px;
+  background-color: rgb(217, 76, 59);
+  border-radius: 15px;
+}
+.projectsContainer button:hover, .projectsContainer buttonfocus {
+  background-color: rgb(51, 74, 86);
+  color: #fff;
+  cursor: pointer;
+}
 .projectsContainer .underTheSea {
   width: 45%;
 }
@@ -584,7 +594,7 @@ form input {
   padding: 20px;
   background-color: #fff;
   color: #222;
-  border: 3px solid rgb(255, 210, 19);
+  border: 3px solid rgb(243, 166, 38);
   border-radius: 15px;
 }
 form textarea::-webkit-input-placeholder, form input::-webkit-input-placeholder {
@@ -610,7 +620,7 @@ form input::placeholder {
 }
 form textarea {
   width: 100%;
-  border: 3px solid rgb(255, 210, 19);
+  border: 3px solid rgb(243, 166, 38);
   border-radius: 25px;
   resize: none;
 }
@@ -623,12 +633,12 @@ form button {
   padding: 10px 0;
   margin-top: 50px;
   color: #222;
-  background-color: rgb(255, 210, 19);
+  background-color: rgb(243, 166, 38);
   border-radius: 15px;
 }
 form button:hover, form button:focus {
   color: #fff;
-  background-color: rgb(51, 74, 86);
+  background-color: rgb(255, 210, 19);
   cursor: pointer;
 }
 form .formContainer {
