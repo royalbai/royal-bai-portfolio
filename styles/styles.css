@@ -339,14 +339,17 @@ header {
 }
 .home .headerElement {
   position: absolute;
-  top: 10%;
-  width: 30%;
+  top: 15%;
+  width: 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.home .headerElement img {
+  width: 15%;
 }
 .home:after {
   content: "";
@@ -462,10 +465,49 @@ header {
 
 .projects {
   margin-top: -300px;
-  padding-top: 400px;
+  padding-top: 300px;
   background-image: url(../assets/back-img-4.png);
   background-size: cover;
+  height: 1500px;
 }
-.projects img {
-  max-width: 100%;
+.projects h2 {
+  text-align: center;
+  position: relative;
+}
+.projects h2:before {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 2px;
+  background-color: #222;
+  position: absolute;
+  left: 36.5%;
+  top: -5px;
+}
+
+.projectsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 100px;
+}
+.projectsContainer img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+.projectsContainer p {
+  margin: 25px 0;
+}
+.projectsContainer .underTheSea {
+  width: 45%;
+}
+.projectsContainer .pokedexApi {
+  width: 45%;
 }

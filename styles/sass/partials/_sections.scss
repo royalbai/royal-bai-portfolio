@@ -111,11 +111,50 @@
 
 .projects {
     margin-top: -300px;
-    padding-top: 400px;
+    padding-top: 300px;
     background-image: url(../assets/back-img-4.png);
     background-size: cover;
+    height: 1500px;
+
+    h2 {
+        text-align: center;
+        position: relative;
+        
+        &:before {
+            content: "";
+            display: block;
+            width: 140px;
+            height: 2px;
+            background-color: $text;
+            position: absolute;
+            left: 36.5%;
+            top: -5px;
+        }
+    }
+}
+
+.projectsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
 
     img {
-        max-width: 100%;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-bottom: 25px;
+    }
+
+    p {
+        margin: 25px 0;
+    }
+
+    .underTheSea {
+        width: 45%;
+    }
+
+    .pokedexApi {
+        width: 45%;
     }
 }

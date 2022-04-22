@@ -21,10 +21,14 @@ header {
 
     .headerElement {
         position: absolute;
-        top: 10%;
-        width: 30%;
+        top: 15%;
+        width: 25%;
         display: flex;
         justify-content: space-between;
+
+        img {
+            width: 15%;
+        }
     }
 
     &:after {
