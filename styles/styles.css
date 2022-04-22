@@ -305,6 +305,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: #222;
 }
 
 img {
@@ -471,11 +472,11 @@ footer {
 }
 
 .projects {
-  margin-top: -300px;
-  padding-top: 300px;
   background-image: url(../assets/back-img-4.png);
   background-size: cover;
   height: 1500px;
+  margin-top: -300px;
+  padding-top: 300px;
 }
 .projects h2 {
   text-align: center;
@@ -507,14 +508,71 @@ footer {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 .projectsContainer p {
-  margin: 25px 0;
+  margin: 35px 0;
 }
 .projectsContainer .underTheSea {
   width: 45%;
 }
 .projectsContainer .pokedexApi {
+  width: 45%;
+}
+
+.contact {
+  background-image: url(../assets/back-img-5.png);
+  background-size: cover;
+  height: 1000px;
+  margin-top: -275px;
+  padding-top: 300px;
+}
+.contact h2 {
+  position: relative;
+}
+.contact h2:before {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 2px;
+  background-color: #222;
+  position: absolute;
+  top: 0px;
+}
+
+.contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactText {
+  width: 45%;
+}
+
+.socialIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 30px;
+}
+.socialIcons a {
+  font-size: 2rem;
+}
+.socialIcons a :hover,
+.socialIcons a :focus {
+  color: rgb(255, 210, 19);
+}
+
+.contactForm {
   width: 45%;
 }

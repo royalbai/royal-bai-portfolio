@@ -110,11 +110,11 @@
 // Projects section
 
 .projects {
-    margin-top: -300px;
-    padding-top: 300px;
     background-image: url(../assets/back-img-4.png);
     background-size: cover;
     height: 1500px;
+    margin-top: -300px;
+    padding-top: 300px;
 
     h2 {
         text-align: center;
@@ -143,11 +143,11 @@
         height: 300px;
         object-fit: cover;
         border-radius: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
     }
 
     p {
-        margin: 25px 0;
+        margin: 35px 0;
     }
 
     .underTheSea {
@@ -157,4 +157,58 @@
     .pokedexApi {
         width: 45%;
     }
+}
+
+// Contact section
+
+.contact {
+    background-image: url(../assets/back-img-5.png);
+    background-size: cover;
+    height: 1000px;
+    margin-top: -275px;
+    padding-top: 300px;
+
+    h2 {
+        position: relative;
+    
+        &:before {
+            content: "";
+            display: block;
+            width: 140px;
+            height: 2px;
+            background-color: $text;
+            position: absolute;
+            top: 0px;
+        }
+    }
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactText {
+    width: 45%;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+    a {
+        font-size: 2rem;
+
+        :hover,
+        :focus {
+            color: $primary;
+        }
+    }
+}
+
+.contactForm {
+    width: 45%;
+
 }
