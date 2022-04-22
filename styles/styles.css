@@ -408,7 +408,7 @@ footer {
   height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 25px;
+  border-radius: 15px;
   -webkit-box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.5);
           box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.5);
 }
@@ -507,7 +507,7 @@ footer {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 25px;
+  border-radius: 15px;
   margin-bottom: 35px;
 }
 .projectsContainer p {
@@ -568,11 +568,85 @@ footer {
 .socialIcons a {
   font-size: 2rem;
 }
-.socialIcons a :hover,
-.socialIcons a :focus {
+.socialIcons a:hover, .socialIcons a:focus {
   color: rgb(255, 210, 19);
 }
 
 .contactForm {
+  width: 45%;
+}
+
+form {
+  width: 100%;
+}
+form textarea,
+form input {
+  padding: 20px;
+  background-color: #fff;
+  color: #222;
+  border: 3px solid rgb(255, 210, 19);
+  border-radius: 15px;
+}
+form textarea::-webkit-input-placeholder, form input::-webkit-input-placeholder {
+  color: #222;
+  opacity: 0.5;
+}
+form textarea::-moz-placeholder, form input::-moz-placeholder {
+  color: #222;
+  opacity: 0.5;
+}
+form textarea:-ms-input-placeholder, form input:-ms-input-placeholder {
+  color: #222;
+  opacity: 0.5;
+}
+form textarea::-ms-input-placeholder, form input::-ms-input-placeholder {
+  color: #222;
+  opacity: 0.5;
+}
+form textarea::placeholder,
+form input::placeholder {
+  color: #222;
+  opacity: 0.5;
+}
+form textarea {
+  width: 100%;
+  border: 3px solid rgb(255, 210, 19);
+  border-radius: 25px;
+  resize: none;
+}
+form label,
+form input {
+  display: block;
+}
+form button {
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 50px;
+  color: #222;
+  background-color: rgb(255, 210, 19);
+  border-radius: 15px;
+}
+form button:hover, form button:focus {
+  color: #fff;
+  background-color: rgb(51, 74, 86);
+  cursor: pointer;
+}
+form .formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 60px;
+}
+form .formContainer input {
+  width: 100%;
+  height: 100%;
+}
+form .nameContainer {
+  width: 45%;
+}
+form .emailContainer {
   width: 45%;
 }

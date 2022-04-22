@@ -1,0 +1,65 @@
+form {
+    width: 100%;
+
+    textarea,
+    input {
+        padding: 20px;
+        background-color: $white;
+        color: $text;
+        border: 3px solid $primary;
+        border-radius: 15px;
+
+        &::placeholder {
+            color: $text;
+            opacity: 0.5;
+        }
+    }
+
+    textarea {
+        width: 100%;
+        border: 3px solid $primary;
+        border-radius: 25px;
+        resize: none;
+    }
+
+    label,
+    input {
+        display: block;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px 0;
+        margin-top: 50px;
+        color: $text;
+        background-color: $primary;
+        border-radius: 15px;
+
+        &:hover,
+        &:focus {
+            color: $white;
+            background-color: $quaternary;
+            cursor: pointer;
+        }
+
+    }
+
+    .formContainer {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+
+        input {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .nameContainer {
+        width: 45%;
+    }
+
+    .emailContainer {
+        width: 45%;
+    }
+}
