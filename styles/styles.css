@@ -362,6 +362,13 @@ header {
   margin-top: 20px;
 }
 
+footer {
+  background-color: rgb(51, 74, 86);
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
 .about {
   margin-top: 200px;
 }
