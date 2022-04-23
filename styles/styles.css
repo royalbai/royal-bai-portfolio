@@ -318,6 +318,10 @@ img {
   margin: 0 auto;
 }
 
+nav {
+  display: none;
+}
+
 header {
   background-image: url(../assets/back-img-1.png);
   background-size: cover;
@@ -334,6 +338,7 @@ header {
 .home {
   text-align: right;
   position: relative;
+  margin-top: 200px;
 }
 .home h1 {
   color: #fff;
@@ -365,6 +370,7 @@ header {
 
 footer {
   background-color: rgb(51, 74, 86);
+  font-size: 0.8rem;
   color: #fff;
   text-align: center;
   padding: 15px 0;
@@ -533,7 +539,7 @@ footer {
 .contact {
   background-image: url(../assets/back-img-5.png);
   background-size: cover;
-  height: 1000px;
+  height: 1200px;
   margin-top: -275px;
   padding-top: 300px;
 }
@@ -560,6 +566,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 100px;
 }
 
 .contactText {
@@ -573,7 +580,7 @@ footer {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 .socialIcons a {
   font-size: 2rem;
