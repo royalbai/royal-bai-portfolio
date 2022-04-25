@@ -162,10 +162,12 @@
         margin: 35px 0;
     }
 
-    button {
+    .button {
         padding: 10px 45px;
         background-color: $tertiary;
         border-radius: 15px;
+        text-transform: none;
+        font-weight: 500;
 
         &:hover,
         &focus {
