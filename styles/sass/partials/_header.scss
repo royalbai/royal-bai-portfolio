@@ -20,18 +20,6 @@ header {
         color: $white;
     }
 
-    .headerElement {
-        position: absolute;
-        top: 15%;
-        width: 25%;
-        display: flex;
-        justify-content: space-between;
-
-        img {
-            width: 15%;
-        }
-    }
-
     &:after {
         content: "";
         display: block;

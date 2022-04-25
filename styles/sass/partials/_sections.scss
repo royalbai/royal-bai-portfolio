@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 
     h2 {
         position: relative;
@@ -22,7 +23,6 @@
             top: 0px;
         }
     }
-    
 
     .aboutText {
         margin-right: 100px;
@@ -40,6 +40,18 @@
             object-fit: cover;
             border-radius: 15px;
             box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    .aboutElement {
+        position: absolute;
+        bottom: -20%;
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+    
+        img {
+            width: 15%;
         }
     }
 }
