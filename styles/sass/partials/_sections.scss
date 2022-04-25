@@ -1,7 +1,7 @@
 // About section
 
 .about {
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .aboutContainer {
@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    padding-top: 150px;
 
     h2 {
         position: relative;
@@ -126,11 +127,12 @@
     background-size: cover;
     height: 1500px;
     margin-top: -300px;
-    padding-top: 300px;
+    padding-top: 150px;
 
     h2 {
         text-align: center;
         position: relative;
+        padding-top: 100px;
         
         &:before {
             content: "";
@@ -140,7 +142,7 @@
             background-color: $text;
             position: absolute;
             left: 36.5%;
-            top: -5px;
+            top: 95px;
         }
     }
 }
@@ -193,10 +195,11 @@
     background-size: cover;
     height: 1200px;
     margin-top: -275px;
-    padding-top: 300px;
+    padding-top: 200px;
 
     h2 {
         position: relative;
+        padding-top: 100px;
     
         &:before {
             content: "";
@@ -205,7 +208,7 @@
             height: 2px;
             background-color: $text;
             position: absolute;
-            top: 0px;
+            top: 95px;
         }
     }
 }
