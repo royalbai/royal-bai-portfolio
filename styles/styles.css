@@ -1005,6 +1005,9 @@ form .emailContainer {
     margin: 10px 0;
   }
 
+  .contact {
+    margin-top: -400px;
+  }
   .contact h2:before {
     left: 35%;
   }
