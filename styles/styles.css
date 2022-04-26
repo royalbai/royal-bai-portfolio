@@ -502,7 +502,7 @@ footer {
 
 .laptop {
   position: absolute;
-  top: 350px;
+  top: 400px;
   width: 1260px;
 }
 .laptop img {
@@ -528,7 +528,7 @@ footer {
   top: -5px;
 }
 .toolkitIcons ul {
-  margin: 40px 200px;
+  margin: 80px 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -621,7 +621,6 @@ footer {
 }
 .contact h2 {
   position: relative;
-  padding-top: 100px;
 }
 .contact h2:before {
   content: "";
@@ -630,7 +629,7 @@ footer {
   height: 2px;
   background-color: #222;
   position: absolute;
-  top: 95px;
+  top: 0;
 }
 
 .contactContainer {
@@ -644,20 +643,24 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 100px;
+  padding-top: 100px;
 }
 
 .contactText {
-  width: 45%;
+  width: 35%;
+}
+.contactText p {
+  margin: 100px 0;
 }
 
 .socialIcons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin-top: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
 }
 .socialIcons a {
   font-size: 2rem;
@@ -667,7 +670,7 @@ footer {
 }
 
 .contactForm {
-  width: 45%;
+  width: 60%;
 }
 
 form {
@@ -753,14 +756,278 @@ form .emailContainer {
   }
 
   .laptop {
-    position: absolute;
-    top: 350px;
+    top: 550px;
     width: 850px;
   }
-  .laptop img {
-    width: 90%;
-    margin: 0 auto;
+
+  .toolkitIcons {
+    padding-top: 300px;
+  }
+  .toolkitIcons h2:before {
+    left: 25.5%;
+  }
+  .toolkitIcons ul {
+    margin: 190px 200px;
+  }
+  .toolkitIcons ul li {
+    font-size: 2rem;
+    padding: 15px;
+  }
+  .toolkitIcons ul li p {
+    margin-top: 10px;
+  }
+
+  .projects h2:before {
+    left: 30%;
+  }
+
+  .projectsContainer img {
+    -o-object-position: 25% 50%;
+       object-position: 25% 50%;
+  }
+
+  .contactText {
+    width: 40%;
+  }
+
+  .socialIcons {
+    width: 100%;
+  }
+
+  .contactForm {
+    width: 50%;
   }
 }
 /* Landscape phone to portrait tablet */
+@media (max-width: 770px) {
+  html {
+    font-size: 100%;
+  }
+
+  .wrapper {
+    width: 95%;
+  }
+
+  .burgerIcon {
+    right: 25px;
+  }
+
+  .aboutContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 50px;
+    height: 1100px;
+  }
+  .aboutContainer h2 {
+    text-align: center;
+  }
+  .aboutContainer h2:before {
+    left: 30%;
+  }
+  .aboutContainer .aboutText {
+    margin-right: 0;
+  }
+  .aboutContainer .aboutImg img {
+    width: 600px;
+    height: 600px;
+  }
+  .aboutContainer .aboutElement {
+    bottom: -10%;
+    left: 35%;
+  }
+
+  .laptop {
+    width: 730px;
+  }
+  .laptop img {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .toolkitIcons {
+    padding-top: 350px;
+  }
+  .toolkitIcons h2:before {
+    left: 27.5%;
+  }
+  .toolkitIcons ul {
+    margin: 160px 150px;
+  }
+
+  .projects {
+    padding-top: 50px;
+    height: 1800px;
+  }
+  .projects h2:before {
+    left: 31%;
+  }
+
+  .projectsContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 1100px;
+  }
+  .projectsContainer .button {
+    display: inline-block;
+    padding: 10px 0px;
+    width: 49.7%;
+    text-align: center;
+  }
+  .projectsContainer .underTheSea {
+    width: 100%;
+  }
+  .projectsContainer .pokedexApi {
+    width: 100%;
+  }
+
+  .contact {
+    margin-top: -330px;
+    height: 1500px;
+  }
+  .contact h2 {
+    text-align: center;
+  }
+  .contact h2:before {
+    left: 32%;
+  }
+
+  .contactContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 1100px;
+  }
+
+  .contactText {
+    width: 100%;
+  }
+
+  .socialIcons {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .socialIcons a {
+    font-size: 4rem;
+  }
+
+  .contactForm {
+    width: 100%;
+  }
+}
 /* Landscape phones and down */
+@media (max-width: 480px) {
+  .burgerIcon {
+    right: 10px;
+  }
+
+  .home {
+    text-align: center;
+  }
+  .home:after {
+    left: 35%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  h1 span {
+    display: block;
+  }
+
+  .about {
+    height: 800px;
+  }
+
+  .aboutContainer {
+    height: 900px;
+  }
+  .aboutContainer h2:before {
+    left: 35%;
+  }
+  .aboutContainer .aboutText {
+    text-align: center;
+  }
+  .aboutContainer .aboutImg img {
+    width: 350px;
+    height: 350px;
+  }
+  .aboutContainer .aboutElement {
+    bottom: -10%;
+    left: 35%;
+  }
+
+  .toolkit {
+    height: 1300px;
+  }
+
+  .laptop {
+    width: 460px;
+    top: 500px;
+  }
+  .laptop img {
+    width: 20%;
+    margin: 0 auto;
+  }
+
+  .toolkitIcons {
+    padding-top: 400px;
+  }
+  .toolkitIcons h2:before {
+    left: 35%;
+  }
+  .toolkitIcons ul {
+    margin: 160px 0px;
+  }
+  .toolkitIcons ul li {
+    padding: 20px;
+  }
+
+  .projects {
+    height: 2100px;
+    padding-top: 150px;
+  }
+  .projects h2:before {
+    left: 35%;
+  }
+
+  .projectsContainer {
+    text-align: center;
+    height: 1400px;
+  }
+  .projectsContainer .button {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .contact h2:before {
+    left: 35%;
+  }
+
+  .contactContainer {
+    text-align: center;
+  }
+
+  .contactForm {
+    margin-top: 40px;
+  }
+
+  form .formContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  form .nameContainer {
+    width: 100%;
+    margin: 20px 0;
+  }
+  form .emailContainer {
+    width: 100%;
+  }
+}

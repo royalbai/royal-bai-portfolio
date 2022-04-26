@@ -69,7 +69,7 @@
 
 .laptop {
     position: absolute;
-    top: 350px;
+    top: 400px;
     width: 1260px;
 
     img {
@@ -98,7 +98,7 @@
     }
 
     ul {
-        margin: 40px 200px;
+        margin: 80px 200px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -199,7 +199,6 @@
 
     h2 {
         position: relative;
-        padding-top: 100px;
     
         &:before {
             content: "";
@@ -208,7 +207,7 @@
             height: 2px;
             background-color: $text;
             position: absolute;
-            top: 95px;
+            top: 0;
         }
     }
 }
@@ -218,16 +217,21 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
+    padding-top: 100px;
 }
 
 .contactText {
-    width: 45%;
+    width: 35%;
+
+    p {
+        margin: 100px 0;
+    }
 }
 
 .socialIcons {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 80px;
+    justify-content: space-between;
+    width: 80%;
 
     a {
         font-size: 2rem;
@@ -240,6 +244,5 @@
 }
 
 .contactForm {
-    width: 45%;
-
+    width: 60%;
 }
