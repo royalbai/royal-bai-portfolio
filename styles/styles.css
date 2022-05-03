@@ -573,6 +573,9 @@ footer {
   left: 36.5%;
   top: 95px;
 }
+.projects p {
+  text-align: center;
+}
 
 .projectsContainer {
   display: -webkit-box;
@@ -633,12 +636,26 @@ footer {
   width: 100%;
   border-radius: 15px;
   padding: 30px;
-  opacity: 0;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
-.projectsContainer .underTheSeaText:hover, .projectsContainer .underTheSeaText:focus,
-.projectsContainer .pokedexApiText:hover,
-.projectsContainer .pokedexApiText:focus {
-  opacity: 1;
+.projectsContainer .innerCard {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  cursor: pointer;
+}
+.projectsContainer .innerCard.flip {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.projectsContainer .card {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  overflow: hidden;
 }
 
 .contact {

@@ -17,3 +17,12 @@ links.forEach(link => {
         menuIcon.classList.remove("active");
     })
 })
+
+const card = document.querySelectorAll(".innerCard");
+
+card.forEach(item => {
+    item.addEventListener("click", (e) => {
+        const cc = e.target.parentElement;
+        cc.classList.toggle("flip");
+    })
+})

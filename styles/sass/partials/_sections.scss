@@ -147,6 +147,10 @@
             top: 95px;
         }
     }
+
+    p {
+        text-align: center;
+    }
 }
 
 .projectsContainer {
@@ -209,12 +213,22 @@
         width: 100%;
         border-radius: 15px;
         padding: 30px;
-        opacity: 0;
+        transform: rotateY(180deg);
+    }
 
-        &:hover,
-        &:focus {
-            opacity: 1;
-        }
+    .innerCard {
+        transition: transform 1s;
+        transform-style: preserve-3d;
+        cursor: pointer;
+    }
+
+    .innerCard.flip {
+        transform: rotateY(180deg);
+    }
+
+    .card {
+        backface-visibility: hidden;
+        overflow: hidden;
     }
 }
 
