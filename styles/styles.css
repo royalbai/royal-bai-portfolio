@@ -271,7 +271,6 @@ h4 {
 
 p {
   text-transform: none;
-  opacity: 0.8;
 }
 
 nav {
@@ -305,7 +304,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: #222;
 }
 
 img {
@@ -330,7 +328,7 @@ nav {
   transition: 0.5s;
 }
 nav ul {
-  padding-top: 150px;
+  padding-top: 100px;
   width: 100%;
 }
 nav li {
@@ -339,6 +337,7 @@ nav li {
   margin: 100px 0;
 }
 nav a {
+  color: #222;
   font-size: 2rem;
   font-weight: 600;
   margin: 0 auto;
@@ -503,10 +502,12 @@ footer {
 .laptop {
   position: absolute;
   top: 400px;
-  width: 1260px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }
 .laptop img {
-  width: 90%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -593,7 +594,18 @@ footer {
 .projectsContainer p {
   margin: 35px 0;
 }
+.projectsContainer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.projectsContainer ul li {
+  font-size: 2rem;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
 .projectsContainer .button {
+  color: #fff;
   padding: 10px 45px;
   background-color: rgb(217, 76, 59);
   border-radius: 15px;
@@ -601,15 +613,32 @@ footer {
   font-weight: 500;
 }
 .projectsContainer .button:hover, .projectsContainer .buttonfocus {
-  background-color: rgb(51, 74, 86);
-  color: #fff;
+  background-color: rgb(255, 210, 19);
+  color: #222;
   cursor: pointer;
 }
-.projectsContainer .underTheSea {
+.projectsContainer .underTheSea,
+.projectsContainer .pokedexApi {
+  position: relative;
   width: 45%;
 }
-.projectsContainer .pokedexApi {
-  width: 45%;
+.projectsContainer .underTheSeaText,
+.projectsContainer .pokedexApiText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  width: 100%;
+  border-radius: 15px;
+  padding: 30px;
+  opacity: 0;
+}
+.projectsContainer .underTheSeaText:hover, .projectsContainer .underTheSeaText:focus,
+.projectsContainer .pokedexApiText:hover,
+.projectsContainer .pokedexApiText:focus {
+  opacity: 1;
 }
 
 .contact {
@@ -627,7 +656,7 @@ footer {
   display: block;
   width: 140px;
   height: 2px;
-  background-color: #222;
+  background-color: #fff;
   position: absolute;
   top: 0;
 }
@@ -647,6 +676,7 @@ footer {
 }
 
 .contactText {
+  color: #fff;
   width: 35%;
 }
 .contactText p {
@@ -663,6 +693,7 @@ footer {
   width: 80%;
 }
 .socialIcons a {
+  color: #fff;
   font-size: 2rem;
 }
 .socialIcons a:hover, .socialIcons a:focus {
@@ -725,7 +756,7 @@ form button {
 }
 form button:hover, form button:focus {
   color: #fff;
-  background-color: rgb(255, 210, 19);
+  background-color: rgb(51, 74, 86);
   cursor: pointer;
 }
 form .formContainer {
@@ -757,7 +788,9 @@ form .emailContainer {
 
   .laptop {
     top: 550px;
-    width: 850px;
+  }
+  .laptop img {
+    width: 90%;
   }
 
   .toolkitIcons {
@@ -767,11 +800,11 @@ form .emailContainer {
     left: 25.5%;
   }
   .toolkitIcons ul {
-    margin: 190px 200px;
+    margin: 190px 140px;
   }
   .toolkitIcons ul li {
-    font-size: 2rem;
-    padding: 15px;
+    font-size: 1.6rem;
+    padding: 20px;
   }
   .toolkitIcons ul li p {
     margin-top: 10px;
@@ -784,6 +817,14 @@ form .emailContainer {
   .projectsContainer img {
     -o-object-position: 25% 50%;
        object-position: 25% 50%;
+  }
+  .projectsContainer .underTheSea,
+.projectsContainer .pokedexApi {
+    width: 48%;
+  }
+  .projectsContainer .underTheSeaText,
+.projectsContainer .pokedexApiText {
+    padding: 5px;
   }
 
   .contactText {
@@ -874,14 +915,16 @@ form .emailContainer {
   .projectsContainer .button {
     display: inline-block;
     padding: 10px 0px;
-    width: 49.7%;
+    width: 49%;
     text-align: center;
   }
-  .projectsContainer .underTheSea {
+  .projectsContainer .underTheSea,
+.projectsContainer .pokedexApi {
     width: 100%;
   }
-  .projectsContainer .pokedexApi {
-    width: 100%;
+  .projectsContainer .underTheSeaText,
+.projectsContainer .pokedexApiText {
+    padding: 25px;
   }
 
   .contact {
@@ -999,6 +1042,18 @@ form .emailContainer {
   .projectsContainer {
     text-align: center;
     height: 1400px;
+  }
+  .projectsContainer p {
+    margin: 10px 0;
+  }
+  .projectsContainer ul {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .projectsContainer ul li {
+    padding-right: 0;
+    padding-bottom: 0;
   }
   .projectsContainer .button {
     width: 100%;

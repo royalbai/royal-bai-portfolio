@@ -15,7 +15,10 @@
 
     .laptop {
         top: 550px;
-        width: 850px;
+
+        img {
+            width: 90%;
+        }
     }
 
     .toolkitIcons {
@@ -28,11 +31,11 @@
         }
     
         ul {
-            margin: 190px 200px;
+            margin: 190px 140px;
 
             li {
-                font-size: 2rem;
-                padding: 15px;
+                font-size: 1.6rem;
+                padding: 20px;
     
                 p {
                     margin-top: 10px;
@@ -54,6 +57,16 @@
     .projectsContainer {
         img {
             object-position: 25% 50%;
+        }
+
+        .underTheSea,
+        .pokedexApi {
+            width: 48%;
+        }
+
+        .underTheSeaText,
+        .pokedexApiText {
+            padding: 5px;
         }
     }
 
@@ -167,16 +180,18 @@
         .button {
             display: inline-block;
             padding: 10px 0px;
-            width: 49.7%;
+            width: 49%;
             text-align: center;
         }
     
-        .underTheSea {
-            width: 100%;
-        }
-    
+        .underTheSea,
         .pokedexApi {
             width: 100%;
+        }
+
+        .underTheSeaText,
+        .pokedexApiText {
+            padding: 25px;
         }
     }
 
@@ -325,6 +340,19 @@
     .projectsContainer {
         text-align: center;
         height: 1400px;
+
+        p {
+            margin: 10px 0;
+        }
+
+        ul {
+            justify-content: space-evenly;
+
+            li {
+                padding-right: 0;
+                padding-bottom: 0;
+            }
+        }
 
         .button {
             width: 100%;
