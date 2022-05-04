@@ -67,6 +67,15 @@
         .underTheSeaText,
         .pokedexApiText {
             padding: 5px;
+            text-align: center;
+
+            ul {
+                justify-content: space-evenly;
+                
+                li {
+                    padding-right: 0;
+                }
+            }
         }
     }
 
@@ -346,10 +355,7 @@
         }
 
         ul {
-            justify-content: space-evenly;
-
             li {
-                padding-right: 0;
                 padding-bottom: 0;
             }
         }

@@ -842,6 +842,17 @@ form .emailContainer {
   .projectsContainer .underTheSeaText,
 .projectsContainer .pokedexApiText {
     padding: 5px;
+    text-align: center;
+  }
+  .projectsContainer .underTheSeaText ul,
+.projectsContainer .pokedexApiText ul {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .projectsContainer .underTheSeaText ul li,
+.projectsContainer .pokedexApiText ul li {
+    padding-right: 0;
   }
 
   .contactText {
@@ -1063,13 +1074,7 @@ form .emailContainer {
   .projectsContainer p {
     margin: 10px 0;
   }
-  .projectsContainer ul {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
   .projectsContainer ul li {
-    padding-right: 0;
     padding-bottom: 0;
   }
   .projectsContainer .button {
