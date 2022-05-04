@@ -584,6 +584,8 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: 100px;
 }
 .projectsContainer img {
@@ -621,12 +623,14 @@ footer {
   cursor: pointer;
 }
 .projectsContainer .underTheSea,
-.projectsContainer .pokedexApi {
+.projectsContainer .pokedexApi,
+.projectsContainer .fitnessPlanner {
   position: relative;
   width: 45%;
 }
 .projectsContainer .underTheSeaText,
-.projectsContainer .pokedexApiText {
+.projectsContainer .pokedexApiText,
+.projectsContainer .fitnessPlannerText {
   position: absolute;
   top: 0;
   left: 0;
@@ -836,22 +840,31 @@ form .emailContainer {
        object-position: 25% 50%;
   }
   .projectsContainer .underTheSea,
-.projectsContainer .pokedexApi {
+.projectsContainer .pokedexApi,
+.projectsContainer .fitnessPlanner {
     width: 48%;
   }
   .projectsContainer .underTheSeaText,
-.projectsContainer .pokedexApiText {
+.projectsContainer .pokedexApiText,
+.projectsContainer .fitnessPlannerText {
     padding: 5px;
     text-align: center;
   }
+  .projectsContainer .underTheSeaText h3,
+.projectsContainer .pokedexApiText h3,
+.projectsContainer .fitnessPlannerText h3 {
+    font-size: 1.5rem;
+  }
   .projectsContainer .underTheSeaText ul,
-.projectsContainer .pokedexApiText ul {
+.projectsContainer .pokedexApiText ul,
+.projectsContainer .fitnessPlannerText ul {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
   .projectsContainer .underTheSeaText ul li,
-.projectsContainer .pokedexApiText ul li {
+.projectsContainer .pokedexApiText ul li,
+.projectsContainer .fitnessPlannerText ul li {
     padding-right: 0;
   }
 
@@ -947,11 +960,13 @@ form .emailContainer {
     text-align: center;
   }
   .projectsContainer .underTheSea,
-.projectsContainer .pokedexApi {
+.projectsContainer .pokedexApi,
+.projectsContainer .fitnessPlanner {
     width: 100%;
   }
   .projectsContainer .underTheSeaText,
-.projectsContainer .pokedexApiText {
+.projectsContainer .pokedexApiText,
+.projectsContainer .fitnessPlannerText {
     padding: 25px;
   }
 
