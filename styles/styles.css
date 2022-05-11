@@ -597,25 +597,29 @@ footer {
   margin-bottom: 35px;
 }
 .projectsContainer p {
-  margin: 35px 0;
+  margin: 25px 0;
 }
 .projectsContainer ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 .projectsContainer ul li {
   font-size: 2rem;
-  padding-right: 40px;
-  padding-bottom: 40px;
+  margin-bottom: 20px;
 }
 .projectsContainer .button {
   color: #fff;
-  padding: 10px 45px;
+  padding: 10px 0;
   background-color: rgb(217, 76, 59);
   border-radius: 15px;
   text-transform: none;
   font-weight: 500;
+  display: inline-block;
+  width: 49%;
 }
 .projectsContainer .button:hover, .projectsContainer .buttonfocus {
   background-color: rgb(255, 210, 19);
@@ -627,6 +631,7 @@ footer {
 .projectsContainer .fitnessPlanner {
   position: relative;
   width: 45%;
+  text-align: center;
 }
 .projectsContainer .underTheSeaText,
 .projectsContainer .pokedexApiText,
@@ -847,7 +852,7 @@ form .emailContainer {
   .projectsContainer .underTheSeaText,
 .projectsContainer .pokedexApiText,
 .projectsContainer .fitnessPlannerText {
-    padding: 5px;
+    padding: 15px 5px;
     text-align: center;
   }
   .projectsContainer .underTheSeaText h3,
@@ -954,10 +959,7 @@ form .emailContainer {
     height: 1100px;
   }
   .projectsContainer .button {
-    display: inline-block;
     padding: 10px 0px;
-    width: 49%;
-    text-align: center;
   }
   .projectsContainer .underTheSea,
 .projectsContainer .pokedexApi,
@@ -967,7 +969,7 @@ form .emailContainer {
   .projectsContainer .underTheSeaText,
 .projectsContainer .pokedexApiText,
 .projectsContainer .fitnessPlannerText {
-    padding: 25px;
+    padding-top: 45px;
   }
 
   .contact {
@@ -1092,9 +1094,14 @@ form .emailContainer {
   .projectsContainer ul li {
     padding-bottom: 0;
   }
+  .projectsContainer .underTheSeaText,
+.projectsContainer .pokedexApiText,
+.projectsContainer .fitnessPlannerText {
+    padding-top: 25px;
+  }
   .projectsContainer .button {
     width: 100%;
-    margin: 10px 0;
+    margin: 5px 0;
   }
 
   .contact {

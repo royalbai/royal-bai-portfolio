@@ -168,26 +168,28 @@
     }
 
     p {
-        margin: 35px 0;
+        margin: 25px 0;
     }
 
     ul {
         display: flex;
+        justify-content: space-evenly;
 
         li {
             font-size: 2rem;
-            padding-right: 40px;
-            padding-bottom: 40px;
+            margin-bottom: 20px;
         }
     }
 
     .button {
         color: $white;
-        padding: 10px 45px;
+        padding: 10px 0;
         background-color: $tertiary;
         border-radius: 15px;
         text-transform: none;
         font-weight: 500;
+        display: inline-block;
+        width: 49%;
 
         &:hover,
         &focus {
@@ -202,6 +204,7 @@
     .fitnessPlanner {
         position: relative;
         width: 45%;
+        text-align: center;
     }
 
     .underTheSeaText,

@@ -68,7 +68,7 @@
         .underTheSeaText,
         .pokedexApiText,
         .fitnessPlannerText {
-            padding: 5px;
+            padding: 15px 5px;
             text-align: center;
 
             h3 {
@@ -193,10 +193,7 @@
         height: 1100px;
     
         .button {
-            display: inline-block;
             padding: 10px 0px;
-            width: 49%;
-            text-align: center;
         }
     
         .underTheSea,
@@ -208,7 +205,7 @@
         .underTheSeaText,
         .pokedexApiText,
         .fitnessPlannerText {
-            padding: 25px;
+            padding-top: 45px;
         }
     }
 
@@ -368,9 +365,15 @@
             }
         }
 
+        .underTheSeaText,
+        .pokedexApiText,
+        .fitnessPlannerText {
+            padding-top: 25px;
+        }
+
         .button {
             width: 100%;
-            margin: 10px 0;
+            margin: 5px 0;
         }
     }
 
