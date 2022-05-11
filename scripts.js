@@ -3,7 +3,6 @@ const menuSlideout = document.querySelector("nav");
 const links = document.querySelectorAll("nav a");
 const card = document.querySelectorAll(".innerCard");
 
-const handle = () => {
     menuIcon.addEventListener("click", function () {
         menuIcon.classList.toggle("active");
         menuSlideout.classList.toggle("activeNav");
@@ -22,6 +21,3 @@ const handle = () => {
             cc.classList.toggle("flip");
         })
     })
-}
-
-handle();
