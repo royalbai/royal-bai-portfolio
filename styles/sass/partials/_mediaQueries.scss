@@ -1,49 +1,5 @@
 /* Portrait tablet and small desktops */
-@media (max-width: 965px) {
-    // About section
-
-    .aboutContainer {
-        .aboutImg {
-            img {
-                width: 300px;
-                height: 300px;
-            }
-        }
-    }
-    
-    // Toolkit section
-
-    .laptop {
-        top: 550px;
-
-        img {
-            width: 90%;
-        }
-    }
-
-    .toolkitIcons {
-        padding-top: 300px;
-    
-        h2 {
-            &:before {
-                left: 25.5%;
-            }
-        }
-    
-        ul {
-            margin: 190px 140px;
-
-            li {
-                font-size: 1.6rem;
-                padding: 20px;
-    
-                p {
-                    margin-top: 10px;
-                }
-            }
-        }
-    }
-
+@media (max-width: 960px) {
     // Projects section
 
     .projects {
@@ -77,9 +33,53 @@
 
             ul {
                 justify-content: space-evenly;
-                
+
                 li {
                     padding-right: 0;
+                }
+            }
+        }
+    }
+
+    // About section
+
+    .aboutContainer {
+        .aboutImg {
+            img {
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+    
+    // Toolkit section
+
+    .laptop {
+        top: 550px;
+
+        img {
+            width: 90%;
+        }
+    }
+
+    .toolkitIcons {
+        padding-top: 170px;
+    
+        h2 {
+            &:before {
+                left: 25.5%;
+            }
+        }
+    
+        ul {
+            margin: 190px 140px;
+
+            li {
+                font-size: 2rem;
+                padding: 20px;
+    
+                p {
+                    margin-top: 10px;
                 }
             }
         }
@@ -97,6 +97,45 @@
     
     .contactForm {
         width: 50%;
+    }
+}
+
+@media (max-width: 810px) {
+    // Projects section
+
+    .projects {
+        h2 {
+            &:before {
+                left: 26.5%;
+            }
+        }
+    }
+
+    // About section
+
+    .about {
+        height: 1550px;
+    }
+
+    // Toolkit section
+
+    .toolkitIcons {
+        h2 {
+            &:before {
+                left: 21.5%;
+            }
+        }
+    }
+
+    .toolkitIcons {
+        ul {
+            margin: 170px 140px;
+
+            li {
+                font-size: 1.8rem;
+                padding: 15px;
+            }
+        }
     }
 }
 
@@ -118,63 +157,6 @@
         right: 25px;
     }
 
-    // About section 
-
-    .aboutContainer {
-        flex-direction: column;
-        padding-top: 50px;
-        height: 1100px;
-
-        h2 {
-            text-align: center;
-
-            &:before {
-                left: 30%;
-            }
-        }
-
-        .aboutText {
-            margin-right: 0;
-        }
-
-        .aboutImg {
-            img {
-                width: 600px;
-                height: 600px;
-            }
-        }
-
-        .aboutElement {
-            bottom: -10%;
-            left: 35%;
-        }
-    }
-
-    // Toolkit section
-
-    .laptop {
-        width: 730px;
-    
-        img {
-            width: 95%;
-            margin: 0 auto;
-        }
-    }
-    
-    .toolkitIcons {
-        padding-top: 350px;
-    
-        h2 {
-            &:before {
-                left: 27.5%;
-            }
-        }
-    
-        ul {
-            margin: 160px 150px;
-        }
-    }
-
     // Projects section
 
     .projects {
@@ -191,11 +173,11 @@
     .projectsContainer {
         flex-direction: column;
         height: 1100px;
-    
+
         .button {
             padding: 10px 0px;
         }
-    
+
         .underTheSea,
         .pokedexApi,
         .fitnessPlanner {
@@ -206,6 +188,67 @@
         .pokedexApiText,
         .fitnessPlannerText {
             padding-top: 45px;
+        }
+    }
+
+    // About section 
+
+    .aboutContainer {
+        flex-direction: column;
+        padding-top: 50px;
+        height: 950px;
+
+        h2 {
+            text-align: center;
+
+            &:before {
+                left: 30%;
+            }
+        }
+
+        .aboutText {
+            margin-right: 0;
+        }
+
+        .aboutImg {
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        }
+    }
+
+    // Toolkit section
+
+    .toolkit {
+        height: 1200px;
+    }
+
+    .laptop {
+        top: 400px;
+        width: 730px;
+    
+        img {
+            width: 95%;
+            margin: 0 auto;
+        }
+    }
+    
+    .toolkitIcons {
+        padding-top: 50px;
+    
+        h2 {
+            &:before {
+                left: 27.5%;
+            }
+        }
+    
+        ul {
+            margin: 160px 150px;
+
+            li {
+                padding: 20px;
+            }
         }
     }
 
@@ -246,6 +289,70 @@
     }
 }
 
+@media (max-width: 600px) {
+    // Projects section
+
+    .projects {
+        h2 {
+            &:before {
+                left: 26%;
+            }
+        }
+    }
+    
+    // About section
+
+    .about {
+        h2 {
+            &:before {
+                left: 24.5%;
+            }
+        }
+    }
+
+    // Toolkit section
+
+    .toolkit {
+        height: 1500px;
+
+        h2 {
+            &:before {
+                left: 21%;
+            }
+        }
+    }
+
+    .laptop {
+        top: 350px;
+        width: 300px;
+
+        img {
+            width: 95%;
+            margin: 0 auto;
+        }
+    }
+
+    .toolkitIcons {
+        ul {
+            margin: 300px 0;
+
+            li {
+                font-size: 2.5rem;
+                padding: 40px;
+            }
+        }
+    }
+    // Contact section
+
+    .contact {
+        h2 {
+            &:before {
+                left: 27.5%;
+            }
+        }
+    }
+}
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
     // Nav styles
@@ -260,7 +367,10 @@
         text-align: center;
 
         &:after {
-            left: 34%;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            bottom: -20px;
         }
     }
 
@@ -272,72 +382,6 @@
         }
     }
 
-    // About section
-
-    .about {
-        height: 800px;
-    }
-
-    .aboutContainer {
-        height: 900px;
-
-        h2 {
-            &:before {
-                left: 34%;
-            }
-        }
-    
-        .aboutText {
-            text-align: center;
-        }
-    
-        .aboutImg {
-            img {
-                width: 350px;
-                height: 350px;
-            }
-        }
-    
-        .aboutElement {
-            bottom: -10%;
-            left: 37%;
-        }
-    }
-
-    // Toolkit section
-
-    .toolkit {
-        height: 1300px;
-    }
-
-    .laptop {
-        width: 400px;
-        top: 500px;
-
-        img {
-            width: 20%;
-            margin: 0 auto;
-        }
-    }
-    
-    .toolkitIcons {
-        padding-top: 400px;
-    
-        h2 {
-            &:before {
-                left: 34%;
-            }
-        }
-    
-        ul {
-            margin: 160px 0px;
-
-            li {
-                padding: 15px;
-            }
-        }
-    }
-
     // Projects sections
 
     .projects {
@@ -346,7 +390,9 @@
 
         h2 {
             &:before {
-                left: 34%;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
             }
         }
     }
@@ -377,6 +423,74 @@
         }
     }
 
+    // About section
+
+    .about {
+        height: 1500px;
+    }
+
+    .aboutContainer {
+        height: 900px;
+
+        h2 {
+            &:before {
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+            }
+        }
+    
+        .aboutText {
+            text-align: center;
+        }
+    
+        .aboutImg {
+            img {
+                width: 350px;
+                height: 350px;
+            }
+        }
+    
+        .aboutElement {
+            bottom: -10%;
+            left: 37%;
+        }
+    }
+
+    // Toolkit section
+
+    .toolkit {
+        height: 1300px;
+    }
+
+    .laptop {
+        width: 400px;
+        top: 350px;
+
+        img {
+            width: 20%;
+            margin: 0 auto;
+        }
+    }
+    
+    .toolkitIcons {
+        h2 {
+            &:before {
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+            }
+        }
+    
+        ul {
+            margin: 160px 0;
+
+            li {
+                padding: 30px;
+            }
+        }
+    }
+
     // Contact section
 
     .contact {
@@ -384,7 +498,9 @@
         
         h2 {
             &:before {
-                left: 34%;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
             }
         }
     }
@@ -415,4 +531,15 @@
         }
     }
     
+}
+
+@media (max-width: 420px) {
+
+    .toolkitIcons {
+        ul {
+            li {
+                padding: 25px;
+            }
+        }
+    }
 }

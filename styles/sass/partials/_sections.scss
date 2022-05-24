@@ -1,141 +1,14 @@
-// About section
-
-.about {
-    margin-top: 50px;
-}
-
-.aboutContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    padding-top: 150px;
-
-    h2 {
-        position: relative;
-        
-        &:before {
-            content: "";
-            display: block;
-            width: 140px;
-            height: 2px;
-            background-color: $text;
-            position: absolute;
-            top: 0px;
-        }
-    }
-
-    .aboutText {
-        margin-right: 100px;
-
-        p {
-            margin-top: 40px;
-        }
-    }
-
-    .aboutImg {
-        
-        img {
-            width: 500px;
-            height: 500px;
-            object-fit: cover;
-            border-radius: 15px;
-            box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.5);
-        }
-    }
-
-    .aboutElement {
-        position: absolute;
-        bottom: -20%;
-        width: 25%;
-        display: flex;
-        justify-content: space-between;
-    
-        img {
-            width: 15%;
-        }
-    }
-}
-
-// Toolkit section
-
-.toolkit {
-    background-image: url(../assets/back-img-3.png);
-    background-size: cover;
-    height: 1500px;
-    margin-top: 200px;
-    position: relative;
-}
-
-.laptop {
-    position: absolute;
-    top: 400px;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-
-    img {
-        width: 60%;
-        margin: 0 auto;
-    }
-}
-
-.toolkitIcons {
-    padding-top: 250px;
-
-    h2 {
-        text-align: center;
-        position: relative;
-        
-        &:before {
-            content: "";
-            display: block;
-            width: 140px;
-            height: 2px;
-            background-color: $text;
-            position: absolute;
-            left: 33.5%;
-            top: -5px;
-        }
-    }
-
-    ul {
-        margin: 80px 200px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-
-        li {
-            font-size: 2.5rem;
-            padding: 40px;
-            text-align: center;
-
-            p {
-                margin-top: 20px;
-            }
-        }
-    }
-
-    p {
-        font-family: $logoFont;
-    }
-    
-}
-
 // Projects section
 
 .projects {
-    background-image: url(../assets/back-img-4.png);
-    background-size: cover;
-    height: 1500px;
-    margin-top: -300px;
-    padding-top: 150px;
+    margin-top: 50px;
+    position: relative;
 
     h2 {
         text-align: center;
         position: relative;
         padding-top: 100px;
-        
+
         &:before {
             content: "";
             display: block;
@@ -150,6 +23,21 @@
 
     p {
         text-align: center;
+    }
+
+    .projectElement {
+        position: absolute;
+        bottom: -150px;
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+
+        img {
+            width: 15%;
+        }
     }
 }
 
@@ -193,7 +81,7 @@
 
         &:hover,
         &focus {
-            background-color:$primary;
+            background-color: $primary;
             color: $text;
             cursor: pointer;
         }
@@ -235,6 +123,122 @@
     .card {
         backface-visibility: hidden;
         overflow: hidden;
+    }
+}
+
+// About section
+
+.about {
+    background-image: url(../assets/back-img-3.png);
+    background-size: cover;
+    height: 1400px;
+    margin-top: 200px;
+    padding-top: 250px;
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 150px;
+
+    h2 {
+        position: relative;
+        
+        &:before {
+            content: "";
+            display: block;
+            width: 140px;
+            height: 2px;
+            background-color: $text;
+            position: absolute;
+            top: 0px;
+        }
+    }
+
+    .aboutText {
+        margin-right: 100px;
+
+        p {
+            margin-top: 40px;
+        }
+    }
+
+    .aboutImg {
+        
+        img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
+
+// Toolkit section
+
+.toolkit {
+    background-image: url(../assets/back-img-4.png);
+    background-size: cover;
+    height: 1500px;
+    margin-top: -300px;
+    padding-top: 150px;
+    position: relative;
+}
+
+.laptop {
+    position: absolute;
+    top: 400px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+
+    img {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+.toolkitIcons {
+    padding-top: 100px;
+
+    h2 {
+        text-align: center;
+        position: relative;
+        
+        &:before {
+            content: "";
+            display: block;
+            width: 140px;
+            height: 2px;
+            background-color: $text;
+            position: absolute;
+            left: 33.5%;
+            top: -5px;
+        }
+    }
+
+    p {
+        font-family: $logoFont;
+    }
+
+    ul {
+        margin: 80px 200px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        li {
+            font-size: 2.5rem;
+            padding: 40px;
+            text-align: center;
+
+            p {
+                margin-top: 20px;
+            }
+        }
     }
 }
 

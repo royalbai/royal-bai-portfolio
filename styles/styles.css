@@ -322,7 +322,7 @@ nav {
   right: -100%;
   width: 100%;
   height: 100vh;
-  background-color: rgb(243, 166, 38);
+  background-color: rgb(51, 74, 86);
   z-index: 20;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -337,7 +337,7 @@ nav li {
   margin: 100px 0;
 }
 nav a {
-  color: #222;
+  color: #fff;
   font-size: 2rem;
   font-weight: 600;
   margin: 0 auto;
@@ -381,10 +381,12 @@ nav a:hover, nav a:focus {
 }
 
 .burgerIcon.active:before {
+  background-color: #fff;
   -webkit-transform: rotate(45deg) translate(6px, 7px);
           transform: rotate(45deg) translate(6px, 7px);
 }
 .burgerIcon.active:after {
+  background-color: #fff;
   -webkit-transform: rotate(-45deg) translate(7px, -8px);
           transform: rotate(-45deg) translate(7px, -8px);
 }
@@ -432,131 +434,9 @@ footer {
   padding: 15px 0;
 }
 
-.about {
-  margin-top: 50px;
-}
-
-.aboutContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-  padding-top: 150px;
-}
-.aboutContainer h2 {
-  position: relative;
-}
-.aboutContainer h2:before {
-  content: "";
-  display: block;
-  width: 140px;
-  height: 2px;
-  background-color: #222;
-  position: absolute;
-  top: 0px;
-}
-.aboutContainer .aboutText {
-  margin-right: 100px;
-}
-.aboutContainer .aboutText p {
-  margin-top: 40px;
-}
-.aboutContainer .aboutImg img {
-  width: 500px;
-  height: 500px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 15px;
-  -webkit-box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.5);
-}
-.aboutContainer .aboutElement {
-  position: absolute;
-  bottom: -20%;
-  width: 25%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.aboutContainer .aboutElement img {
-  width: 15%;
-}
-
-.toolkit {
-  background-image: url(../assets/back-img-3.png);
-  background-size: cover;
-  height: 1500px;
-  margin-top: 200px;
-  position: relative;
-}
-
-.laptop {
-  position: absolute;
-  top: 400px;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-}
-.laptop img {
-  width: 60%;
-  margin: 0 auto;
-}
-
-.toolkitIcons {
-  padding-top: 250px;
-}
-.toolkitIcons h2 {
-  text-align: center;
-  position: relative;
-}
-.toolkitIcons h2:before {
-  content: "";
-  display: block;
-  width: 140px;
-  height: 2px;
-  background-color: #222;
-  position: absolute;
-  left: 33.5%;
-  top: -5px;
-}
-.toolkitIcons ul {
-  margin: 80px 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-.toolkitIcons ul li {
-  font-size: 2.5rem;
-  padding: 40px;
-  text-align: center;
-}
-.toolkitIcons ul li p {
-  margin-top: 20px;
-}
-.toolkitIcons p {
-  font-family: "Square Peg", cursive;
-}
-
 .projects {
-  background-image: url(../assets/back-img-4.png);
-  background-size: cover;
-  height: 1500px;
-  margin-top: -300px;
-  padding-top: 150px;
+  margin-top: 50px;
+  position: relative;
 }
 .projects h2 {
   text-align: center;
@@ -575,6 +455,23 @@ footer {
 }
 .projects p {
   text-align: center;
+}
+.projects .projectElement {
+  position: absolute;
+  bottom: -150px;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.projects .projectElement img {
+  width: 15%;
 }
 
 .projectsContainer {
@@ -665,6 +562,116 @@ footer {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   overflow: hidden;
+}
+
+.about {
+  background-image: url(../assets/back-img-3.png);
+  background-size: cover;
+  height: 1400px;
+  margin-top: 200px;
+  padding-top: 250px;
+}
+
+.aboutContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding-top: 150px;
+}
+.aboutContainer h2 {
+  position: relative;
+}
+.aboutContainer h2:before {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 2px;
+  background-color: #222;
+  position: absolute;
+  top: 0px;
+}
+.aboutContainer .aboutText {
+  margin-right: 100px;
+}
+.aboutContainer .aboutText p {
+  margin-top: 40px;
+}
+.aboutContainer .aboutImg img {
+  width: 500px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+  -webkit-box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.toolkit {
+  background-image: url(../assets/back-img-4.png);
+  background-size: cover;
+  height: 1500px;
+  margin-top: -300px;
+  padding-top: 150px;
+  position: relative;
+}
+
+.laptop {
+  position: absolute;
+  top: 400px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.laptop img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.toolkitIcons {
+  padding-top: 100px;
+}
+.toolkitIcons h2 {
+  text-align: center;
+  position: relative;
+}
+.toolkitIcons h2:before {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 2px;
+  background-color: #222;
+  position: absolute;
+  left: 33.5%;
+  top: -5px;
+}
+.toolkitIcons p {
+  font-family: "Square Peg", cursive;
+}
+.toolkitIcons ul {
+  margin: 80px 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.toolkitIcons ul li {
+  font-size: 2.5rem;
+  padding: 40px;
+  text-align: center;
+}
+.toolkitIcons ul li p {
+  margin-top: 20px;
 }
 
 .contact {
@@ -806,36 +813,7 @@ form .emailContainer {
 }
 
 /* Portrait tablet and small desktops */
-@media (max-width: 965px) {
-  .aboutContainer .aboutImg img {
-    width: 300px;
-    height: 300px;
-  }
-
-  .laptop {
-    top: 550px;
-  }
-  .laptop img {
-    width: 90%;
-  }
-
-  .toolkitIcons {
-    padding-top: 300px;
-  }
-  .toolkitIcons h2:before {
-    left: 25.5%;
-  }
-  .toolkitIcons ul {
-    margin: 190px 140px;
-  }
-  .toolkitIcons ul li {
-    font-size: 1.6rem;
-    padding: 20px;
-  }
-  .toolkitIcons ul li p {
-    margin-top: 10px;
-  }
-
+@media (max-width: 960px) {
   .projects h2:before {
     left: 30%;
   }
@@ -873,6 +851,35 @@ form .emailContainer {
     padding-right: 0;
   }
 
+  .aboutContainer .aboutImg img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .laptop {
+    top: 550px;
+  }
+  .laptop img {
+    width: 90%;
+  }
+
+  .toolkitIcons {
+    padding-top: 170px;
+  }
+  .toolkitIcons h2:before {
+    left: 25.5%;
+  }
+  .toolkitIcons ul {
+    margin: 190px 140px;
+  }
+  .toolkitIcons ul li {
+    font-size: 2rem;
+    padding: 20px;
+  }
+  .toolkitIcons ul li p {
+    margin-top: 10px;
+  }
+
   .contactText {
     width: 40%;
   }
@@ -883,6 +890,27 @@ form .emailContainer {
 
   .contactForm {
     width: 50%;
+  }
+}
+@media (max-width: 810px) {
+  .projects h2:before {
+    left: 26.5%;
+  }
+
+  .about {
+    height: 1550px;
+  }
+
+  .toolkitIcons h2:before {
+    left: 21.5%;
+  }
+
+  .toolkitIcons ul {
+    margin: 170px 140px;
+  }
+  .toolkitIcons ul li {
+    font-size: 1.8rem;
+    padding: 15px;
   }
 }
 /* Landscape phone to portrait tablet */
@@ -897,50 +925,6 @@ form .emailContainer {
 
   .burgerIcon {
     right: 25px;
-  }
-
-  .aboutContainer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding-top: 50px;
-    height: 1100px;
-  }
-  .aboutContainer h2 {
-    text-align: center;
-  }
-  .aboutContainer h2:before {
-    left: 30%;
-  }
-  .aboutContainer .aboutText {
-    margin-right: 0;
-  }
-  .aboutContainer .aboutImg img {
-    width: 600px;
-    height: 600px;
-  }
-  .aboutContainer .aboutElement {
-    bottom: -10%;
-    left: 35%;
-  }
-
-  .laptop {
-    width: 730px;
-  }
-  .laptop img {
-    width: 95%;
-    margin: 0 auto;
-  }
-
-  .toolkitIcons {
-    padding-top: 350px;
-  }
-  .toolkitIcons h2:before {
-    left: 27.5%;
-  }
-  .toolkitIcons ul {
-    margin: 160px 150px;
   }
 
   .projects {
@@ -970,6 +954,54 @@ form .emailContainer {
 .projectsContainer .pokedexApiText,
 .projectsContainer .fitnessPlannerText {
     padding-top: 45px;
+  }
+
+  .aboutContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 50px;
+    height: 950px;
+  }
+  .aboutContainer h2 {
+    text-align: center;
+  }
+  .aboutContainer h2:before {
+    left: 30%;
+  }
+  .aboutContainer .aboutText {
+    margin-right: 0;
+  }
+  .aboutContainer .aboutImg img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .toolkit {
+    height: 1200px;
+  }
+
+  .laptop {
+    top: 400px;
+    width: 730px;
+  }
+  .laptop img {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .toolkitIcons {
+    padding-top: 50px;
+  }
+  .toolkitIcons h2:before {
+    left: 27.5%;
+  }
+  .toolkitIcons ul {
+    margin: 160px 150px;
+  }
+  .toolkitIcons ul li {
+    padding: 20px;
   }
 
   .contact {
@@ -1008,6 +1040,43 @@ form .emailContainer {
     width: 100%;
   }
 }
+@media (max-width: 600px) {
+  .projects h2:before {
+    left: 26%;
+  }
+
+  .about h2:before {
+    left: 24.5%;
+  }
+
+  .toolkit {
+    height: 1500px;
+  }
+  .toolkit h2:before {
+    left: 21%;
+  }
+
+  .laptop {
+    top: 350px;
+    width: 300px;
+  }
+  .laptop img {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .toolkitIcons ul {
+    margin: 300px 0;
+  }
+  .toolkitIcons ul li {
+    font-size: 2.5rem;
+    padding: 40px;
+  }
+
+  .contact h2:before {
+    left: 27.5%;
+  }
+}
 /* Landscape phones and down */
 @media (max-width: 480px) {
   .burgerIcon {
@@ -1018,7 +1087,10 @@ form .emailContainer {
     text-align: center;
   }
   .home:after {
-    left: 34%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -20px;
   }
 
   h1 {
@@ -1028,60 +1100,14 @@ form .emailContainer {
     display: block;
   }
 
-  .about {
-    height: 800px;
-  }
-
-  .aboutContainer {
-    height: 900px;
-  }
-  .aboutContainer h2:before {
-    left: 34%;
-  }
-  .aboutContainer .aboutText {
-    text-align: center;
-  }
-  .aboutContainer .aboutImg img {
-    width: 350px;
-    height: 350px;
-  }
-  .aboutContainer .aboutElement {
-    bottom: -10%;
-    left: 37%;
-  }
-
-  .toolkit {
-    height: 1300px;
-  }
-
-  .laptop {
-    width: 400px;
-    top: 500px;
-  }
-  .laptop img {
-    width: 20%;
-    margin: 0 auto;
-  }
-
-  .toolkitIcons {
-    padding-top: 400px;
-  }
-  .toolkitIcons h2:before {
-    left: 34%;
-  }
-  .toolkitIcons ul {
-    margin: 160px 0px;
-  }
-  .toolkitIcons ul li {
-    padding: 15px;
-  }
-
   .projects {
     height: 2100px;
     padding-top: 150px;
   }
   .projects h2:before {
-    left: 34%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
 
   .projectsContainer {
@@ -1104,11 +1130,62 @@ form .emailContainer {
     margin: 5px 0;
   }
 
+  .about {
+    height: 1500px;
+  }
+
+  .aboutContainer {
+    height: 900px;
+  }
+  .aboutContainer h2:before {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .aboutContainer .aboutText {
+    text-align: center;
+  }
+  .aboutContainer .aboutImg img {
+    width: 350px;
+    height: 350px;
+  }
+  .aboutContainer .aboutElement {
+    bottom: -10%;
+    left: 37%;
+  }
+
+  .toolkit {
+    height: 1300px;
+  }
+
+  .laptop {
+    width: 400px;
+    top: 350px;
+  }
+  .laptop img {
+    width: 20%;
+    margin: 0 auto;
+  }
+
+  .toolkitIcons h2:before {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .toolkitIcons ul {
+    margin: 160px 0;
+  }
+  .toolkitIcons ul li {
+    padding: 30px;
+  }
+
   .contact {
     margin-top: -400px;
   }
   .contact h2:before {
-    left: 34%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
 
   .contactContainer {
@@ -1131,5 +1208,10 @@ form .emailContainer {
   }
   form .emailContainer {
     width: 100%;
+  }
+}
+@media (max-width: 420px) {
+  .toolkitIcons ul li {
+    padding: 25px;
   }
 }
