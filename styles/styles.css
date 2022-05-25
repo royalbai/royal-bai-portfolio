@@ -525,14 +525,16 @@ footer {
 }
 .projectsContainer .underTheSea,
 .projectsContainer .pokedexApi,
-.projectsContainer .fitnessPlanner {
+.projectsContainer .fitnessPlanner,
+.projectsContainer .earthquakesSuperheroes {
   position: relative;
   width: 45%;
   text-align: center;
 }
 .projectsContainer .underTheSeaText,
 .projectsContainer .pokedexApiText,
-.projectsContainer .fitnessPlannerText {
+.projectsContainer .fitnessPlannerText,
+.projectsContainer .earthquakesSuperheroesText {
   position: absolute;
   top: 0;
   left: 0;
@@ -544,6 +546,13 @@ footer {
   padding: 30px;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
+}
+.projectsContainer .earthquakesSuperheroesText h3,
+.projectsContainer .earthquakesSuperheroesText li {
+  font-size: 1.5rem;
+}
+.projectsContainer .earthquakesSuperheroesText p {
+  margin: 13px 0;
 }
 .projectsContainer .innerCard {
   -webkit-transition: -webkit-transform 1s;
@@ -822,33 +831,39 @@ form .emailContainer {
     -o-object-position: 25% 50%;
        object-position: 25% 50%;
   }
+  .projectsContainer p {
+    margin: 35px 0;
+  }
   .projectsContainer .underTheSea,
 .projectsContainer .pokedexApi,
-.projectsContainer .fitnessPlanner {
+.projectsContainer .fitnessPlanner,
+.projectsContainer .earthquakesSuperheroes {
     width: 48%;
   }
   .projectsContainer .underTheSeaText,
 .projectsContainer .pokedexApiText,
-.projectsContainer .fitnessPlannerText {
+.projectsContainer .fitnessPlannerText,
+.projectsContainer .earthquakesSuperheroesText {
     padding: 15px 5px;
     text-align: center;
   }
   .projectsContainer .underTheSeaText h3,
 .projectsContainer .pokedexApiText h3,
-.projectsContainer .fitnessPlannerText h3 {
+.projectsContainer .fitnessPlannerText h3,
+.projectsContainer .earthquakesSuperheroesText h3 {
     font-size: 1.5rem;
   }
   .projectsContainer .underTheSeaText ul,
 .projectsContainer .pokedexApiText ul,
-.projectsContainer .fitnessPlannerText ul {
+.projectsContainer .fitnessPlannerText ul,
+.projectsContainer .earthquakesSuperheroesText ul {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-  .projectsContainer .underTheSeaText ul li,
-.projectsContainer .pokedexApiText ul li,
-.projectsContainer .fitnessPlannerText ul li {
-    padding-right: 0;
+  .projectsContainer .earthquakesSuperheroesText p {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
   }
 
   .aboutContainer .aboutImg img {
@@ -897,6 +912,10 @@ form .emailContainer {
     left: 26.5%;
   }
 
+  .projectsContainer .earthquakesSuperheroesText p {
+    line-height: 1.05rem;
+  }
+
   .about {
     height: 1550px;
   }
@@ -929,7 +948,6 @@ form .emailContainer {
 
   .projects {
     padding-top: 50px;
-    height: 1800px;
   }
   .projects h2:before {
     left: 31%;
@@ -940,20 +958,47 @@ form .emailContainer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 1100px;
+    height: 1800px;
+  }
+  .projectsContainer img {
+    height: 400px;
   }
   .projectsContainer .button {
     padding: 10px 0px;
   }
   .projectsContainer .underTheSea,
 .projectsContainer .pokedexApi,
-.projectsContainer .fitnessPlanner {
+.projectsContainer .fitnessPlanner,
+.projectsContainer .earthquakesSuperheroes {
     width: 100%;
   }
   .projectsContainer .underTheSeaText,
 .projectsContainer .pokedexApiText,
-.projectsContainer .fitnessPlannerText {
+.projectsContainer .fitnessPlannerText,
+.projectsContainer .earthquakesSuperheroesText {
     padding-top: 45px;
+    height: 400px;
+  }
+  .projectsContainer .underTheSeaText h3,
+.projectsContainer .underTheSeaText li,
+.projectsContainer .pokedexApiText h3,
+.projectsContainer .pokedexApiText li,
+.projectsContainer .fitnessPlannerText h3,
+.projectsContainer .fitnessPlannerText li,
+.projectsContainer .earthquakesSuperheroesText h3,
+.projectsContainer .earthquakesSuperheroesText li {
+    font-size: 2.5rem;
+  }
+  .projectsContainer .underTheSeaText p,
+.projectsContainer .pokedexApiText p,
+.projectsContainer .fitnessPlannerText p,
+.projectsContainer .earthquakesSuperheroesText p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 75px 0;
+  }
+  .projectsContainer .earthquakesSuperheroesText p {
+    margin: 60px 0;
   }
 
   .aboutContainer {
@@ -1045,6 +1090,13 @@ form .emailContainer {
     left: 26%;
   }
 
+  .projectsContainer .earthquakesSuperheroesText h3 {
+    font-size: 2.3rem;
+  }
+  .projectsContainer .earthquakesSuperheroesText p {
+    margin: 59px 0;
+  }
+
   .about h2:before {
     left: 24.5%;
   }
@@ -1101,7 +1153,6 @@ form .emailContainer {
   }
 
   .projects {
-    height: 2100px;
     padding-top: 150px;
   }
   .projects h2:before {
@@ -1112,18 +1163,26 @@ form .emailContainer {
 
   .projectsContainer {
     text-align: center;
-    height: 1400px;
-  }
-  .projectsContainer p {
-    margin: 10px 0;
-  }
-  .projectsContainer ul li {
-    padding-bottom: 0;
   }
   .projectsContainer .underTheSeaText,
 .projectsContainer .pokedexApiText,
-.projectsContainer .fitnessPlannerText {
+.projectsContainer .fitnessPlannerText,
+.projectsContainer .earthquakesSuperheroesText {
     padding-top: 25px;
+  }
+  .projectsContainer .underTheSeaText p,
+.projectsContainer .pokedexApiText p,
+.projectsContainer .fitnessPlannerText p,
+.projectsContainer .earthquakesSuperheroesText p {
+    margin: 55px 0;
+  }
+  .projectsContainer .earthquakesSuperheroesText h3 {
+    font-size: 1.8rem;
+  }
+  .projectsContainer .earthquakesSuperheroesText p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    margin: 46px 0;
   }
   .projectsContainer .button {
     width: 100%;
@@ -1211,6 +1270,22 @@ form .emailContainer {
   }
 }
 @media (max-width: 420px) {
+  .projectsContainer .underTheSeaText p,
+.projectsContainer .pokedexApiText p,
+.projectsContainer .fitnessPlannerText p,
+.projectsContainer .earthquakesSuperheroesText p {
+    font-size: 1.2rem;
+    margin: 55px 0;
+  }
+  .projectsContainer .earthquakesSuperheroesText h3 {
+    font-size: 1.6rem;
+  }
+  .projectsContainer .earthquakesSuperheroesText p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 51px 0;
+  }
+
   .toolkitIcons ul li {
     padding: 25px;
   }

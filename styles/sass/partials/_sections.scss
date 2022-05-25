@@ -89,7 +89,8 @@
 
     .underTheSea,
     .pokedexApi,
-    .fitnessPlanner {
+    .fitnessPlanner,
+    .earthquakesSuperheroes {
         position: relative;
         width: 45%;
         text-align: center;
@@ -97,7 +98,8 @@
 
     .underTheSeaText,
     .pokedexApiText,
-    .fitnessPlannerText {
+    .fitnessPlannerText,
+    .earthquakesSuperheroesText {
         position: absolute;
         top: 0;
         left: 0;
@@ -108,6 +110,17 @@
         border-radius: 15px;
         padding: 30px;
         transform: rotateY(180deg);
+    }
+
+    .earthquakesSuperheroesText {
+        h3,
+        li {
+            font-size: 1.5rem;
+        }
+
+        p {
+            margin: 13px 0;
+        }
     }
 
     .innerCard {
