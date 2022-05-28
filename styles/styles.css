@@ -919,6 +919,9 @@ form .emailContainer {
   .about {
     height: 1550px;
   }
+  .about .aboutText {
+    line-height: 1.4rem;
+  }
 
   .toolkitIcons h2:before {
     left: 21.5%;
