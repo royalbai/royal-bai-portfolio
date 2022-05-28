@@ -1,5 +1,11 @@
 /* Portrait tablet and small desktops */
 @media (max-width: 960px) {
+    // Base styles
+
+    body {
+        overflow-x: hidden;
+    }
+
     // Projects section
 
     .projects {
@@ -642,12 +648,6 @@
 }
 
 @media (max-width: 390px) {
-    // Base styles 
-
-    body {
-        overflow-x: hidden;
-    }
-
     // Projects section
 
     .projectsContainer {
