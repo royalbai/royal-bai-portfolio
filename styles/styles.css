@@ -1135,7 +1135,7 @@ form .emailContainer {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   nav li {
-    margin: 50px 0;
+    margin: 70px 0;
   }
   nav a {
     padding: 15px 50px;
@@ -1298,5 +1298,23 @@ form .emailContainer {
 
   .toolkitIcons ul li {
     padding: 25px;
+  }
+}
+@media (max-width: 390px) {
+  .projectsContainer .fitnessPlannerText h3 {
+    font-size: 2.2rem;
+  }
+  .projectsContainer .earthquakesSuperheroesText h3 {
+    font-size: 1.5rem;
+  }
+  .projectsContainer .earthquakesSuperheroesText p {
+    margin: 39px 0;
+  }
+
+  .toolkitIcons ul {
+    margin: 200px 0;
+  }
+  .toolkitIcons ul li {
+    padding: 19px;
   }
 }
