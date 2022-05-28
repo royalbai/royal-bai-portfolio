@@ -413,6 +413,16 @@
 @media (max-width: 480px) {
     // Nav styles
 
+    nav {
+        li {
+            margin: 50px 0;
+        }
+
+        a {
+            padding: 15px 50px;
+        }
+    }
+
     .burgerIcon {
         right: 15px;
     }
@@ -594,7 +604,7 @@
     
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
     // Projects section
 
     .projectsContainer {
