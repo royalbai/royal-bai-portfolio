@@ -1301,6 +1301,10 @@ form .emailContainer {
   }
 }
 @media (max-width: 390px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .projectsContainer .fitnessPlannerText h3 {
     font-size: 2.2rem;
   }
