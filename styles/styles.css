@@ -1233,10 +1233,10 @@ form .emailContainer {
 
   .laptop {
     width: 350px;
-    top: 350px;
+    top: 300px;
   }
   .laptop img {
-    width: 20%;
+    width: 80%;
     margin: 0 auto;
   }
 
@@ -1246,7 +1246,7 @@ form .emailContainer {
     margin: 0 auto;
   }
   .toolkitIcons ul {
-    margin: 160px 0;
+    margin: 250px 0;
   }
   .toolkitIcons ul li {
     padding: 30px;
@@ -1316,7 +1316,7 @@ form .emailContainer {
   }
 
   .toolkitIcons ul {
-    margin: 200px 0;
+    margin: 270px 0;
   }
   .toolkitIcons ul li {
     padding: 19px;
