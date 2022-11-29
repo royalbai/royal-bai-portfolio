@@ -1,0 +1,1199 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  color: #222;
+  background-color: #fff;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 6.9rem;
+  line-height: 6.3rem;
+}
+h1 span {
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 3.5rem;
+  line-height: 4.6rem;
+}
+
+h3 {
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+p {
+  text-transform: none;
+}
+
+nav {
+  font-size: 1rem;
+  line-height: 1.45rem;
+}
+
+button {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  border: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 125%;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.wrapper {
+  max-width: 1260px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  display: block;
+  position: fixed;
+  right: -100%;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(51, 74, 86);
+  z-index: 20;
+  transition: 0.5s;
+}
+nav ul {
+  padding-top: 100px;
+  width: 100%;
+}
+nav li {
+  width: 100%;
+  text-align: center;
+  margin: 100px 0;
+}
+nav a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 30px 50px;
+  width: 100%;
+}
+nav a:hover, nav a:focus {
+  background-color: rgb(217, 76, 59);
+  color: rgb(255, 210, 19);
+  border-radius: 15px;
+}
+
+.activeNav {
+  right: 0;
+}
+
+.burgerIcon {
+  position: fixed;
+  right: 50px;
+  top: 30px;
+  display: block;
+  width: 35px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  z-index: 30;
+}
+.burgerIcon .navBar, .burgerIcon:before, .burgerIcon:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: #222;
+  margin: 5px 0;
+  transition: 0.5s;
+}
+
+.burgerIcon.active:before {
+  background-color: #fff;
+  transform: rotate(45deg) translate(6px, 7px);
+}
+.burgerIcon.active:after {
+  background-color: #fff;
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+.burgerIcon.active .navBar {
+  opacity: 0;
+}
+
+header {
+  background-image: url(../assets/back-img-1.png);
+  background-size: cover;
+  background-position: center bottom;
+  height: 800px;
+}
+
+.portfolioLogo {
+  font-family: "Square Peg", cursive;
+  text-transform: none;
+  padding-top: 30px;
+}
+
+.home {
+  text-align: right;
+  position: relative;
+  padding-top: 150px;
+}
+.home h1 {
+  color: #fff;
+}
+.home:after {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 2px;
+  background-color: #222;
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: rgb(51, 74, 86);
+  font-size: 0.8rem;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.projects {
+  margin-top: 50px;
+  position: relative;
+}
+.projects h2 {
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+}
+.projects h2:before {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 2px;
+  background-color: #222;
+  position: absolute;
+  left: 36.5%;
+  top: 95px;
+}
+.projects p {
+  text-align: center;
+}
+.projects .projectElement {
+  position: absolute;
+  bottom: -150px;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.projects .projectElement img {
+  width: 15%;
+}
+
+.projectsContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.projectsContainer img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 35px;
+}
+.projectsContainer p {
+  margin: 25px 0;
+}
+.projectsContainer ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.projectsContainer ul li {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.projectsContainer .button {
+  color: #fff;
+  padding: 10px 0;
+  background-color: rgb(217, 76, 59);
+  border-radius: 15px;
+  text-transform: none;
+  font-weight: 500;
+  display: inline-block;
+  width: 49%;
+}
+.projectsContainer .button:hover, .projectsContainer .buttonfocus {
+  background-color: rgb(255, 210, 19);
+  color: #222;
+  cursor: pointer;
+}
+.projectsContainer .underTheSea,
+.projectsContainer .pokedexApi,
+.projectsContainer .fitnessPlanner,
+.projectsContainer .earthquakesSuperheroes {
+  position: relative;
+  width: 45%;
+  text-align: center;
+}
+.projectsContainer .underTheSeaText,
+.projectsContainer .pokedexApiText,
+.projectsContainer .fitnessPlannerText,
+.projectsContainer .earthquakesSuperheroesText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  width: 100%;
+  border-radius: 15px;
+  padding: 30px;
+  transform: rotateY(180deg);
+}
+.projectsContainer .earthquakesSuperheroesText h3,
+.projectsContainer .earthquakesSuperheroesText li {
+  font-size: 1.5rem;
+}
+.projectsContainer .earthquakesSuperheroesText p {
+  margin: 13px 0;
+}
+.projectsContainer .innerCard {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+.projectsContainer .innerCard.flip {
+  transform: rotateY(180deg);
+}
+.projectsContainer .card {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  overflow: hidden;
+}
+
+.about {
+  background-image: url(../assets/back-img-3.png);
+  background-size: cover;
+  height: 1400px;
+  margin-top: 200px;
+  padding-top: 250px;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-top: 150px;
+}
+.aboutContainer h2 {
+  position: relative;
+}
+.aboutContainer h2:before {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 2px;
+  background-color: #222;
+  position: absolute;
+  top: 0px;
+}
+.aboutContainer .aboutText {
+  margin-right: 100px;
+}
+.aboutContainer .aboutText p {
+  margin-top: 40px;
+}
+.aboutContainer .aboutImg img {
+  width: 500px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+  box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.toolkit {
+  background-image: url(../assets/back-img-4.png);
+  background-size: cover;
+  height: 1500px;
+  margin-top: -300px;
+  padding-top: 150px;
+  position: relative;
+}
+
+.laptop {
+  position: absolute;
+  top: 400px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.laptop img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.toolkitIcons {
+  padding-top: 100px;
+}
+.toolkitIcons h2 {
+  text-align: center;
+  position: relative;
+}
+.toolkitIcons h2:before {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 2px;
+  background-color: #222;
+  position: absolute;
+  left: 33.5%;
+  top: -5px;
+}
+.toolkitIcons p {
+  font-family: "Square Peg", cursive;
+}
+.toolkitIcons ul {
+  margin: 80px 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.toolkitIcons ul li {
+  font-size: 2.5rem;
+  padding: 40px;
+  text-align: center;
+}
+.toolkitIcons ul li p {
+  margin-top: 20px;
+}
+
+.contact {
+  background-image: url(../assets/back-img-5.png);
+  background-size: cover;
+  height: 1200px;
+  margin-top: -275px;
+  padding-top: 200px;
+}
+.contact h2 {
+  position: relative;
+}
+.contact h2:before {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+
+.contactText {
+  color: #fff;
+  width: 35%;
+}
+.contactText p {
+  margin: 100px 0;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.socialIcons a {
+  color: #fff;
+  font-size: 2rem;
+}
+.socialIcons a:hover, .socialIcons a:focus {
+  color: rgb(255, 210, 19);
+}
+
+.contactForm {
+  width: 60%;
+}
+
+form {
+  width: 100%;
+}
+form textarea,
+form input {
+  padding: 20px;
+  background-color: #fff;
+  color: #222;
+  border: 3px solid rgb(243, 166, 38);
+  border-radius: 15px;
+}
+form textarea::-moz-placeholder, form input::-moz-placeholder {
+  color: #222;
+  opacity: 0.5;
+}
+form textarea:-ms-input-placeholder, form input:-ms-input-placeholder {
+  color: #222;
+  opacity: 0.5;
+}
+form textarea::placeholder,
+form input::placeholder {
+  color: #222;
+  opacity: 0.5;
+}
+form textarea {
+  width: 100%;
+  border: 3px solid rgb(243, 166, 38);
+  border-radius: 25px;
+  resize: none;
+}
+form label,
+form input {
+  display: block;
+}
+form button {
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 50px;
+  color: #222;
+  background-color: rgb(243, 166, 38);
+  border-radius: 15px;
+}
+form button:hover, form button:focus {
+  color: #fff;
+  background-color: rgb(51, 74, 86);
+  cursor: pointer;
+}
+form .formContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+form .formContainer input {
+  width: 100%;
+  height: 100%;
+}
+form .nameContainer {
+  width: 45%;
+}
+form .emailContainer {
+  width: 45%;
+}
+
+/* Portrait tablet and small desktops */
+@media (max-width: 960px) {
+  body {
+    overflow-x: hidden;
+  }
+  .projects h2:before {
+    left: 30%;
+  }
+  .projectsContainer img {
+    -o-object-position: 25% 50%;
+       object-position: 25% 50%;
+  }
+  .projectsContainer p {
+    margin: 35px 0;
+  }
+  .projectsContainer .underTheSea,
+.projectsContainer .pokedexApi,
+.projectsContainer .fitnessPlanner,
+.projectsContainer .earthquakesSuperheroes {
+    width: 48%;
+  }
+  .projectsContainer .underTheSeaText,
+.projectsContainer .pokedexApiText,
+.projectsContainer .fitnessPlannerText,
+.projectsContainer .earthquakesSuperheroesText {
+    padding: 15px 5px;
+    text-align: center;
+  }
+  .projectsContainer .underTheSeaText h3,
+.projectsContainer .pokedexApiText h3,
+.projectsContainer .fitnessPlannerText h3,
+.projectsContainer .earthquakesSuperheroesText h3 {
+    font-size: 1.5rem;
+  }
+  .projectsContainer .underTheSeaText ul,
+.projectsContainer .pokedexApiText ul,
+.projectsContainer .fitnessPlannerText ul,
+.projectsContainer .earthquakesSuperheroesText ul {
+    justify-content: space-evenly;
+  }
+  .projectsContainer .earthquakesSuperheroesText p {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+  }
+  .aboutContainer .aboutImg img {
+    width: 300px;
+    height: 300px;
+  }
+  .laptop {
+    top: 550px;
+  }
+  .laptop img {
+    width: 90%;
+  }
+  .toolkitIcons {
+    padding-top: 170px;
+  }
+  .toolkitIcons h2:before {
+    left: 25.5%;
+  }
+  .toolkitIcons ul {
+    margin: 190px 140px;
+  }
+  .toolkitIcons ul li {
+    font-size: 2rem;
+    padding: 20px;
+  }
+  .toolkitIcons ul li p {
+    margin-top: 10px;
+  }
+  .contactText {
+    width: 40%;
+  }
+  .socialIcons {
+    width: 100%;
+  }
+  .contactForm {
+    width: 50%;
+  }
+}
+@media (max-width: 810px) {
+  .projects h2:before {
+    left: 26.5%;
+  }
+  .projectsContainer .earthquakesSuperheroesText p {
+    line-height: 1.05rem;
+  }
+  .about {
+    height: 1550px;
+  }
+  .about .aboutText {
+    line-height: 1.4rem;
+  }
+  .toolkitIcons h2:before {
+    left: 21.5%;
+  }
+  .toolkitIcons ul {
+    margin: 170px 140px;
+  }
+  .toolkitIcons ul li {
+    font-size: 1.8rem;
+    padding: 15px;
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 770px) {
+  html {
+    font-size: 100%;
+  }
+  .wrapper {
+    width: 95%;
+  }
+  .burgerIcon {
+    right: 25px;
+  }
+  .projects {
+    padding-top: 50px;
+  }
+  .projects h2:before {
+    left: 31%;
+  }
+  .projectsContainer {
+    flex-direction: column;
+    height: 1800px;
+  }
+  .projectsContainer img {
+    height: 400px;
+  }
+  .projectsContainer .button {
+    padding: 10px 0px;
+  }
+  .projectsContainer .underTheSea,
+.projectsContainer .pokedexApi,
+.projectsContainer .fitnessPlanner,
+.projectsContainer .earthquakesSuperheroes {
+    width: 100%;
+  }
+  .projectsContainer .underTheSeaText,
+.projectsContainer .pokedexApiText,
+.projectsContainer .fitnessPlannerText,
+.projectsContainer .earthquakesSuperheroesText {
+    padding-top: 45px;
+    height: 400px;
+  }
+  .projectsContainer .underTheSeaText h3,
+.projectsContainer .underTheSeaText li,
+.projectsContainer .pokedexApiText h3,
+.projectsContainer .pokedexApiText li,
+.projectsContainer .fitnessPlannerText h3,
+.projectsContainer .fitnessPlannerText li,
+.projectsContainer .earthquakesSuperheroesText h3,
+.projectsContainer .earthquakesSuperheroesText li {
+    font-size: 2.5rem;
+  }
+  .projectsContainer .underTheSeaText p,
+.projectsContainer .pokedexApiText p,
+.projectsContainer .fitnessPlannerText p,
+.projectsContainer .earthquakesSuperheroesText p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 75px 0;
+  }
+  .projectsContainer .earthquakesSuperheroesText p {
+    margin: 60px 0;
+  }
+  .aboutContainer {
+    flex-direction: column;
+    padding-top: 50px;
+    height: 950px;
+  }
+  .aboutContainer h2 {
+    text-align: center;
+  }
+  .aboutContainer h2:before {
+    left: 30%;
+  }
+  .aboutContainer .aboutText {
+    margin-right: 0;
+  }
+  .aboutContainer .aboutImg img {
+    width: 500px;
+    height: 500px;
+  }
+  .toolkit {
+    height: 1200px;
+  }
+  .laptop {
+    top: 400px;
+    width: 730px;
+  }
+  .laptop img {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .toolkitIcons {
+    padding-top: 50px;
+  }
+  .toolkitIcons h2:before {
+    left: 27.5%;
+  }
+  .toolkitIcons ul {
+    margin: 160px 150px;
+  }
+  .toolkitIcons ul li {
+    padding: 20px;
+  }
+  .contact {
+    margin-top: -330px;
+    height: 1500px;
+  }
+  .contact h2 {
+    text-align: center;
+  }
+  .contact h2:before {
+    left: 32%;
+  }
+  .contactContainer {
+    flex-direction: column;
+    height: 1100px;
+  }
+  .contactText {
+    width: 100%;
+  }
+  .socialIcons {
+    justify-content: space-evenly;
+  }
+  .socialIcons a {
+    font-size: 4rem;
+  }
+  .contactForm {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .projects h2:before {
+    left: 26%;
+  }
+  .projectsContainer .earthquakesSuperheroesText h3 {
+    font-size: 2.3rem;
+  }
+  .projectsContainer .earthquakesSuperheroesText p {
+    margin: 59px 0;
+  }
+  .about h2:before {
+    left: 24.5%;
+  }
+  .toolkit {
+    height: 1500px;
+  }
+  .toolkit h2:before {
+    left: 21%;
+  }
+  .laptop {
+    top: 350px;
+    width: 300px;
+  }
+  .laptop img {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .toolkitIcons ul {
+    margin: 300px 0;
+  }
+  .toolkitIcons ul li {
+    font-size: 2.5rem;
+    padding: 40px;
+  }
+  .contact h2:before {
+    left: 27.5%;
+  }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  nav li {
+    margin: 70px 0;
+  }
+  nav a {
+    padding: 15px 50px;
+  }
+  .burgerIcon {
+    right: 15px;
+  }
+  .home {
+    text-align: center;
+  }
+  .home:after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -20px;
+  }
+  h1 {
+    text-align: center;
+  }
+  h1 span {
+    display: block;
+  }
+  .projects {
+    padding-top: 150px;
+  }
+  .projects h2:before {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .projectsContainer {
+    text-align: center;
+  }
+  .projectsContainer .underTheSeaText,
+.projectsContainer .pokedexApiText,
+.projectsContainer .fitnessPlannerText,
+.projectsContainer .earthquakesSuperheroesText {
+    padding-top: 25px;
+  }
+  .projectsContainer .underTheSeaText p,
+.projectsContainer .pokedexApiText p,
+.projectsContainer .fitnessPlannerText p,
+.projectsContainer .earthquakesSuperheroesText p {
+    margin: 55px 0;
+  }
+  .projectsContainer .earthquakesSuperheroesText h3 {
+    font-size: 1.8rem;
+  }
+  .projectsContainer .earthquakesSuperheroesText p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    margin: 46px 0;
+  }
+  .projectsContainer .button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .about {
+    height: 1500px;
+  }
+  .aboutContainer {
+    height: 900px;
+  }
+  .aboutContainer h2:before {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .aboutContainer .aboutText {
+    text-align: center;
+  }
+  .aboutContainer .aboutImg img {
+    width: 350px;
+    height: 350px;
+  }
+  .aboutContainer .aboutElement {
+    bottom: -10%;
+    left: 37%;
+  }
+  .toolkit {
+    height: 1300px;
+  }
+  .laptop {
+    width: 350px;
+    top: 300px;
+  }
+  .laptop img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .toolkitIcons h2:before {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .toolkitIcons ul {
+    margin: 250px 0;
+  }
+  .toolkitIcons ul li {
+    padding: 30px;
+  }
+  .contact {
+    margin-top: -400px;
+  }
+  .contact h2:before {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .contactContainer {
+    text-align: center;
+  }
+  .contactForm {
+    margin-top: 40px;
+  }
+  form .formContainer {
+    flex-direction: column;
+  }
+  form .nameContainer {
+    width: 100%;
+    margin: 20px 0;
+  }
+  form .emailContainer {
+    width: 100%;
+  }
+}
+@media (max-width: 430px) {
+  .projectsContainer .underTheSeaText p,
+.projectsContainer .pokedexApiText p,
+.projectsContainer .fitnessPlannerText p,
+.projectsContainer .earthquakesSuperheroesText p {
+    font-size: 1.2rem;
+    margin: 55px 0;
+  }
+  .projectsContainer .earthquakesSuperheroesText h3 {
+    font-size: 1.6rem;
+  }
+  .projectsContainer .earthquakesSuperheroesText p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 51px 0;
+  }
+  .toolkitIcons ul li {
+    padding: 25px;
+  }
+}
+@media (max-width: 390px) {
+  .projectsContainer .fitnessPlannerText h3 {
+    font-size: 2.2rem;
+  }
+  .projectsContainer .earthquakesSuperheroesText h3 {
+    font-size: 1.5rem;
+  }
+  .projectsContainer .earthquakesSuperheroesText p {
+    margin: 39px 0;
+  }
+  .toolkitIcons ul {
+    margin: 270px 0;
+  }
+  .toolkitIcons ul li {
+    padding: 19px;
+  }
+}/*# sourceMappingURL=styles.css.map */
