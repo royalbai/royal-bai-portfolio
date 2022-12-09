@@ -1364,3 +1364,12 @@ form .emailContainer {
     padding: 19px;
   }
 }
+@media (max-width: 390px) {
+  .projectsContainer .earthquakesSuperheroesText h3 {
+    font-size: 1.5rem;
+  }
+  .projectsContainer .earthquakesSuperheroesText p {
+    margin: 30px 0;
+    line-height: 2rem;
+  }
+}
