@@ -1325,7 +1325,7 @@ form .emailContainer {
     width: 100%;
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 435px) {
   .projectsContainer .underTheSeaText p,
 .projectsContainer .pokedexApiText p,
 .projectsContainer .fitnessPlannerText p,
