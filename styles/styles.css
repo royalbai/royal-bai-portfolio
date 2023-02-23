@@ -527,7 +527,8 @@ footer {
 .projectsContainer .pokedexApi,
 .projectsContainer .fitnessPlanner,
 .projectsContainer .earthquakesSuperheroes,
-.projectsContainer .tetrisGame {
+.projectsContainer .tetrisGame,
+.projectsContainer .audioScribe {
   position: relative;
   width: 45%;
   text-align: center;
@@ -536,7 +537,8 @@ footer {
 .projectsContainer .pokedexApiText,
 .projectsContainer .fitnessPlannerText,
 .projectsContainer .earthquakesSuperheroesText,
-.projectsContainer .tetrisGameText {
+.projectsContainer .tetrisGameText,
+.projectsContainer .audioScribeText {
   position: absolute;
   top: 0;
   left: 0;
@@ -842,7 +844,8 @@ form .emailContainer {
 }
 @media (max-width: 1275px) {
   .projectsContainer .earthquakesSuperheroesText,
-.projectsContainer .tetrisGameText {
+  .projectsContainer .tetrisGameText,
+  .projectsContainer .audioScribeText {
     line-height: 1.3rem;
   }
   .toolkitIcons ul {
@@ -895,32 +898,36 @@ form .emailContainer {
     margin: 35px 0;
   }
   .projectsContainer .underTheSea,
-.projectsContainer .pokedexApi,
-.projectsContainer .fitnessPlanner,
-.projectsContainer .earthquakesSuperheroes,
-.projectsContainer .tetrisGame {
+  .projectsContainer .pokedexApi,
+  .projectsContainer .fitnessPlanner,
+  .projectsContainer .earthquakesSuperheroes,
+  .projectsContainer .tetrisGame,
+  .projectsContainer .audioScribe {
     width: 48%;
   }
   .projectsContainer .underTheSeaText,
-.projectsContainer .pokedexApiText,
-.projectsContainer .fitnessPlannerText,
-.projectsContainer .earthquakesSuperheroesText,
-.projectsContainer .tetrisGameText {
+  .projectsContainer .pokedexApiText,
+  .projectsContainer .fitnessPlannerText,
+  .projectsContainer .earthquakesSuperheroesText,
+  .projectsContainer .tetrisGameText,
+  .projectsContainer .audioScribeText {
     padding: 15px 5px;
     text-align: center;
   }
   .projectsContainer .underTheSeaText h3,
-.projectsContainer .pokedexApiText h3,
-.projectsContainer .fitnessPlannerText h3,
-.projectsContainer .earthquakesSuperheroesText h3,
-.projectsContainer .tetrisGameText h3 {
+  .projectsContainer .pokedexApiText h3,
+  .projectsContainer .fitnessPlannerText h3,
+  .projectsContainer .earthquakesSuperheroesText h3,
+  .projectsContainer .tetrisGameText h3,
+  .projectsContainer .audioScribeText h3 {
     font-size: 1.5rem;
   }
   .projectsContainer .underTheSeaText ul,
-.projectsContainer .pokedexApiText ul,
-.projectsContainer .fitnessPlannerText ul,
-.projectsContainer .earthquakesSuperheroesText ul,
-.projectsContainer .tetrisGameText ul {
+  .projectsContainer .pokedexApiText ul,
+  .projectsContainer .fitnessPlannerText ul,
+  .projectsContainer .earthquakesSuperheroesText ul,
+  .projectsContainer .tetrisGameText ul,
+  .projectsContainer .audioScribeText ul {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
@@ -981,7 +988,7 @@ form .emailContainer {
     left: 26.5%;
   }
   .projectsContainer .underTheSeaText p,
-.projectsContainer .fitnessPlannerText p {
+  .projectsContainer .fitnessPlannerText p {
     line-height: 1.1rem;
   }
   .about {
@@ -1023,7 +1030,7 @@ form .emailContainer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 2400px;
+    height: 2800px;
   }
   .projectsContainer img {
     height: 400px;
@@ -1032,37 +1039,42 @@ form .emailContainer {
     padding: 10px 0px;
   }
   .projectsContainer .underTheSea,
-.projectsContainer .pokedexApi,
-.projectsContainer .fitnessPlanner,
-.projectsContainer .earthquakesSuperheroes,
-.projectsContainer .tetrisGame {
+  .projectsContainer .pokedexApi,
+  .projectsContainer .fitnessPlanner,
+  .projectsContainer .earthquakesSuperheroes,
+  .projectsContainer .tetrisGame,
+  .projectsContainer .audioScribe {
     width: 100%;
   }
   .projectsContainer .underTheSeaText,
-.projectsContainer .pokedexApiText,
-.projectsContainer .fitnessPlannerText,
-.projectsContainer .earthquakesSuperheroesText,
-.projectsContainer .tetrisGameText {
+  .projectsContainer .pokedexApiText,
+  .projectsContainer .fitnessPlannerText,
+  .projectsContainer .earthquakesSuperheroesText,
+  .projectsContainer .tetrisGameText,
+  .projectsContainer .audioScribeText {
     padding-top: 45px;
     height: 400px;
   }
   .projectsContainer .underTheSeaText h3,
-.projectsContainer .underTheSeaText li,
-.projectsContainer .pokedexApiText h3,
-.projectsContainer .pokedexApiText li,
-.projectsContainer .fitnessPlannerText h3,
-.projectsContainer .fitnessPlannerText li,
-.projectsContainer .earthquakesSuperheroesText h3,
-.projectsContainer .earthquakesSuperheroesText li,
-.projectsContainer .tetrisGameText h3,
-.projectsContainer .tetrisGameText li {
+  .projectsContainer .underTheSeaText li,
+  .projectsContainer .pokedexApiText h3,
+  .projectsContainer .pokedexApiText li,
+  .projectsContainer .fitnessPlannerText h3,
+  .projectsContainer .fitnessPlannerText li,
+  .projectsContainer .earthquakesSuperheroesText h3,
+  .projectsContainer .earthquakesSuperheroesText li,
+  .projectsContainer .tetrisGameText h3,
+  .projectsContainer .tetrisGameText li,
+  .projectsContainer .audioScribeText h3,
+  .projectsContainer .audioScribeText li {
     font-size: 2.5rem;
   }
   .projectsContainer .underTheSeaText p,
-.projectsContainer .pokedexApiText p,
-.projectsContainer .fitnessPlannerText p,
-.projectsContainer .earthquakesSuperheroesText p,
-.projectsContainer .tetrisGameText p {
+  .projectsContainer .pokedexApiText p,
+  .projectsContainer .fitnessPlannerText p,
+  .projectsContainer .earthquakesSuperheroesText p,
+  .projectsContainer .tetrisGameText p,
+  .projectsContainer .audioScribeText p {
     font-size: 1.5rem;
     line-height: 2rem;
     margin: 75px 0;
@@ -1146,7 +1158,7 @@ form .emailContainer {
     width: 100%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 605px) {
   .projects h2:before {
     left: 26%;
   }
@@ -1187,6 +1199,19 @@ form .emailContainer {
     left: 27.5%;
   }
 }
+@media (max-width: 575px) {
+  .projectsContainer .earthquakesSuperheroesText h3 {
+    font-size: 2.3rem;
+    line-height: 2rem;
+  }
+  .projectsContainer .earthquakesSuperheroesText p {
+    margin: 25px 0;
+  }
+  .projectsContainer .tetrisGameText p,
+  .projectsContainer .audioScribeText p {
+    margin: 62px 0;
+  }
+}
 /* Landscape phones and down */
 @media (max-width: 480px) {
   nav li {
@@ -1225,17 +1250,19 @@ form .emailContainer {
     text-align: center;
   }
   .projectsContainer .underTheSeaText,
-.projectsContainer .pokedexApiText,
-.projectsContainer .fitnessPlannerText,
-.projectsContainer .earthquakesSuperheroesText,
-.projectsContainer .tetrisGameText {
+  .projectsContainer .pokedexApiText,
+  .projectsContainer .fitnessPlannerText,
+  .projectsContainer .earthquakesSuperheroesText,
+  .projectsContainer .tetrisGameText,
+  .projectsContainer .audioScribeText {
     padding-top: 25px;
   }
   .projectsContainer .underTheSeaText p,
-.projectsContainer .pokedexApiText p,
-.projectsContainer .fitnessPlannerText p,
-.projectsContainer .earthquakesSuperheroesText p,
-.projectsContainer .tetrisGameText p {
+  .projectsContainer .pokedexApiText p,
+  .projectsContainer .fitnessPlannerText p,
+  .projectsContainer .earthquakesSuperheroesText p,
+  .projectsContainer .tetrisGameText p,
+  .projectsContainer .audioScribeText p {
     margin: 55px 0;
   }
   .projectsContainer .earthquakesSuperheroesText h3 {
@@ -1243,10 +1270,11 @@ form .emailContainer {
   }
   .projectsContainer .earthquakesSuperheroesText p {
     font-size: 1.2rem;
-    line-height: 2rem;
-    margin: 46px 0;
+    line-height: 1.6rem;
+    margin: 35px 0;
   }
-  .projectsContainer .tetrisGameText {
+  .projectsContainer .tetrisGameText,
+  .projectsContainer .audioScribeText {
     line-height: 1rem;
   }
   .projectsContainer .button {
@@ -1327,10 +1355,11 @@ form .emailContainer {
 }
 @media (max-width: 450px) {
   .projectsContainer .underTheSeaText p,
-.projectsContainer .pokedexApiText p,
-.projectsContainer .fitnessPlannerText p,
-.projectsContainer .earthquakesSuperheroesText p,
-.projectsContainer .tetrisGameText p {
+  .projectsContainer .pokedexApiText p,
+  .projectsContainer .fitnessPlannerText p,
+  .projectsContainer .earthquakesSuperheroesText p,
+  .projectsContainer .tetrisGameText p,
+  .projectsContainer .audioScribeText p {
     font-size: 1.2rem;
     margin: 55px 0;
   }
@@ -1340,7 +1369,7 @@ form .emailContainer {
   .projectsContainer .earthquakesSuperheroesText p {
     font-size: 1rem;
     line-height: 1.8rem;
-    margin: 51px 0;
+    margin: 45px 0;
   }
   .toolkitIcons ul li {
     padding: 25px;
@@ -1354,7 +1383,7 @@ form .emailContainer {
     font-size: 1.5rem;
   }
   .projectsContainer .earthquakesSuperheroesText p {
-    margin: 39px 0;
+    margin: 35px 0;
     line-height: 2.3rem;
   }
   .toolkitIcons ul {
@@ -1370,6 +1399,12 @@ form .emailContainer {
   }
   .projectsContainer .earthquakesSuperheroesText p {
     margin: 30px 0;
-    line-height: 2rem;
+    line-height: 1.3rem;
+  }
+  .toolkit {
+    height: 1500px;
+  }
+  .toolkit h2 {
+    font-size: 3rem;
   }
 }
